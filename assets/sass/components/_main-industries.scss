@@ -15,7 +15,7 @@
     }
 
     .main-industries__title__decoration{
-        margin-top: -21px;
+        /*margin-top: -21px;*/
         width: 45px;
         height: 2px;
     }
@@ -56,8 +56,12 @@
             margin: 0;
         }
     }*/
-   
-    @media only screen and (max-width: /*800px*/ 600px){
+    @media (min-width: 600px) and (max-width: 1023px) {
+        .main-industries{
+            margin-left: -111px;
+      }
+    }
+    @media only screen and (max-width: /*800px*/ 599px){
         .main-industries__list{
             grid-template-columns: 1fr;
             margin: 0;
