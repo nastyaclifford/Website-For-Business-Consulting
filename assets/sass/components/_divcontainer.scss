@@ -1,0 +1,46 @@
+.main-industries__title__decoration{
+    width:  4vw;
+    height: 0.2vw;
+}
+
+.card{
+    border-radius: 8px;
+    display: flex;
+    width: $card-width; 
+    height: $card-height; 
+    margin-top: 30px;
+}
+.card-title{
+    color: $text-color-stages;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: $box-shadow-card;
+    cursor: pointer;
+}
+
+.widget-49-title-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+.widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.widget-49-title-wrapper .widget-49-date-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: $stage-item-width;
+    height: $stage-item-height;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: $box-shadow;
+    font-weight: 700;
+
+}
