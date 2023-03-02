@@ -1,6 +1,6 @@
 .main-advantages {
   background-color: rgba(76, 175, 80, 0.2);
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -22,19 +22,18 @@
 }
 
 .main-advantages__list {
-  margin-left: 5vw;
   letter-spacing: 1.26px;
-  line-height: 2.5vw;
+  line-height: 3vw;
+  margin: 1vw;
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
-  .main-advantages__title {
-    @include heading-h2;
+  .main-advantages__list {
+    line-height: 5vw;
   }
 }
-
 @media screen and (max-width: 599px) {
-  .main-advantages__title {
-    @include heading-h2;
+  .main-advantages__list {
+    line-height: 5vw;
   }
 }
