@@ -1,12 +1,11 @@
 .rectangle-introduction {
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    grid-row: 1fr; 
     margin-left: 6%;
     margin-right: 6%;
    
 }
-.rectangle-introduction, .aboutme-text, .opening-text{
+.rectangle-introduction .aboutme-text, .opening-text{
     position: relative;
     padding-top: 28px;
     margin-top: 23px;
