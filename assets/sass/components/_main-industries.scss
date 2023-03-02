@@ -5,6 +5,7 @@
         margin-top: 100px;
         display:grid;
         margin-bottom: 60px;
+        max-width: 300px;
     }
 
     .main-industries__title__text {
@@ -15,7 +16,6 @@
     }
 
     .main-industries__title__decoration{
-        /*margin-top: -21px;*/
         width: 45px;
         height: 2px;
     }
@@ -33,6 +33,7 @@
     .main-industries__item{
         margin-left: 50px;
         font-family: 'Oswald', sans-serif;
+        font-weight: normal;
         font-size: /*24px;*/1.5rem;
         color: #5B5858;
         text-align: center;
@@ -41,6 +42,7 @@
     .main-industries__item_middle{
         margin-left: 50px;
         font-family: 'Oswald', sans-serif;
+        font-weight: normal;
         font-size: 24px;
         color: #5B5858;
         text-align: center;
@@ -49,13 +51,6 @@
 
 /*Media Quary*/
 
-
-    /*@media only screen and (max-width: 800px){
-        .main-industries__list{
-            grid-template-columns: 1fr;
-            margin: 0;
-        }
-    }*/
     @media (min-width: 600px) and (max-width: 1023px) {
         .main-industries{
             margin-left: -111px;
@@ -72,7 +67,6 @@
             justify-content: start;
         }
         .main-industries__title__decoration{
-            /*display: none;*/
             margin-right: 242px;
         }
     }
