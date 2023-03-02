@@ -1,9 +1,160 @@
 /* CSS-стили Desktop */
 
-@media (min-width: 600px) and (max-width: 1023px) {
-  /* CSS-стили Tablet*/
-}
+/*Оболочка хэдера*/
+.header {
+  background: #1b8265 url("../img-header/back_picture.png");
+  max-width: 100%;
+  min-height: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-style: normal;
 
-@media screen and (max-width: 599px) {
-  /* CSS-стили Smartphone*/
+  /*Оболочка меню хедера*/
+  .header__inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    justify-content: space-between;
+  }
+
+  /*Логотип хэдера*/
+  .header__logo {
+    margin-top: 2%;
+    width: 45%;
+  }
+
+  /*Меню хэдера*/
+  .header__menu {
+    margin-top: 1em;
+    width: 35%;
+    min-height: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /*Пункты меню хедера*/
+  .header__menu-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+
+  /*Подчеркивание пунктов меню хедера смещенное*/
+  .header__menu-link::after {
+    content: "";
+    background-color: #1b8265;
+    height: 2px;
+    width: 25px;
+    bottom: -4px;
+    right: -6px;
+    position: absolute;
+  }
+
+  /*Изменение цвета ссылок при наведении курсора*/
+  .header__menu a:hover {
+    color: rgb(6, 184, 130);
+  }
+
+  /*Оболочка секции со слоганом*/
+  .header__section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+  }
+
+  /*Центральная надпись секции со слоганом*/
+  .header__section-title {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    margin: 0;
+  }
+
+  /*Текст секции со слоганом*/
+  .header__section-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 600px) and (max-width: 1023px) {
+    /* CSS-стили Tablet*/
+
+    /*Логотип хэдера*/
+    .header__logo {
+      width: 40%;
+    }
+
+    /*Меню хэдера*/
+    .header__menu {
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    /*Центральная надпись секции со слоганом*/
+    .header__section-title {
+      font-size: 48px;
+      line-height: 71px;
+    }
+
+    /*Текст секции со слоганом*/
+    .header__section-text {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    /* CSS-стили Smartphone*/
+    /*Оболочка меню хедера*/
+    .header__inner {
+      grid-template-columns: 1fr;
+      grid-template-rows: 2fr 1fr;
+      justify-content: start;
+    }
+
+    /*Логотип хэдера*/
+    .header__logo {
+      width: 37%;
+    }
+
+    /*Меню хэдера*/
+    .header__menu {
+      margin-top: 0;
+      font-size: 12px;
+      line-height: 17px;
+    }
+
+    /*Оболочка секции со слоганом*/
+    .header__section {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      height: 20rem;
+      justify-content: center;
+    }
+
+    /*Центральная надпись секции со слоганом*/
+    .header__section-title {
+      font-size: 40px;
+      line-height: 58px;
+    }
+
+    /*Текст секции со слоганом*/
+    .header__section-text {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
 }
