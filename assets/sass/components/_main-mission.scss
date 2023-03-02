@@ -1,22 +1,20 @@
-.main-block__row {
+.block__row {
   display: flex;
   width: 1250px;
   height: 451px;
   left: 48px;
   top: 1689px;
-  background: #FBFBFB;
+  background: #fbfbfb;
 }
-
-.main-block__column {
+.block__column {
   margin: 27px;
   width: 373px;
   height: 260px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
 }
-
-.main-about__title {
+.about__title {
   width: 250px;
   height: 60px;
   left: 0px;
@@ -34,53 +32,49 @@
   text-transform: uppercase;
   color: #252525;
 }
-
-.main-about__item {
+.about__item {
   width: 55px;
   height: 2px;
   left: 44px;
   top: 95px;
   margin-left: -220px;
-  background: #1B8265;
+  background: #1b8265;
 }
 
-.main-about__icon {
+.about__icon {
   margin-left: 30px;
   border-radius: 450px;
   width: 50px;
   height: 50px;
   left: 1036px;
   top: 1832px;
-  background: linear-gradient(0deg, #BCBCBC, #BCBCBC), url("growth.png");
-  background: #FFFFFF;
-  box-shadow: 0px 0px 20px #DBDBDB;
+  background: linear-gradient(0deg, #bcbcbc, #bcbcbc), url("growth.png");
+  background: #ffffff;
+  box-shadow: 0px 0px 20px #dbdbdb;
 }
-
-.main-about__icon_2 {
+.about__icon_2 {
   margin-left: 40px;
   border-radius: 250px;
   top: 1832px;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 20px #DBDBDB;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px #dbdbdb;
   border-radius: 80px;
   left: 1048px;
   top: 1844px;
-  background: linear-gradient(0deg, #BCBCBC, #BCBCBC), url("solving.png");
+  background: linear-gradient(0deg, #bcbcbc, #bcbcbc), url("solving.png");
 }
-
-.main-about__icon_3 {
+.about__icon_3 {
   margin-left: 40px;
   border-radius: 250px;
   top: 50px;
-  background: #FFFFFF;
-  box-shadow: 0px 0px 20px #DBDBDB;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px #dbdbdb;
   border-radius: 80px;
   left: 288px;
   top: 63px;
-  background: linear-gradient(0deg, #BCBCBC, #BCBCBC), url("online_data.png");
+  background: linear-gradient(0deg, #bcbcbc, #bcbcbc), url("online_data.png");
 }
-
-.main-about__text {
+.about__text {
   width: 292px;
   height: 80px;
   top: 127px;
@@ -97,7 +91,7 @@
 }
 
 @media all and (max-width: 1200px) {
-  .main-block__row {
+  .block__row {
     max-width: 900px;
     display: flex;
     justify-content: center;
@@ -105,7 +99,7 @@
   }
 }
 @media all and (max-width: 992px) {
-  .main-block__row {
+  .block__row {
     max-width: 750px;
     display: flex;
     justify-content: center;
@@ -113,10 +107,10 @@
   }
 }
 @media all and (max-width: 767px) {
-  .main-block__row {
+  .block__row {
     max-width: none;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-}/*# sourceMappingURL=app.css.map */
+}
