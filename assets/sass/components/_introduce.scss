@@ -1,0 +1,209 @@
+.rectangle-introduction {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-row: 1fr; 
+    margin-left: 6%;
+    margin-right: 6%;
+   
+}
+.rectangle-introduction .aboutme-text, .opening-text{
+    position: relative;
+    padding-top: 28px;
+    margin-top: 23px;
+    
+
+}
+.rectangle-introduction .aboutme-text::after, .opening-text::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color: #0B3529 ;
+}
+h2 {
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 36px;
+}
+.opening-text, .opening-text-more, .aboutme-text, .aboutme-text-more {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2599999904632568px;
+    text-align: left;
+}
+h2, .photo {
+    margin: auto;
+}
+.opening-text-more, .aboutme-text-more {
+    padding-top: 25px;
+}
+.photo{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0;
+    
+}
+.photo__rectangle{
+    background-color: #0B3529;
+    min-width: 25%;
+    min-height:auto;
+    position: absolute;
+    top:30px;
+    left:90px;
+    
+}
+.photo__owner {
+    min-width: 25%;
+    min-height: auto;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 5%;
+    top: 10px;
+    left: 30px;
+    
+}
+@media (max-width: 1200px)  {
+   
+    .rectangle-introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 2fr; 
+    margin-left: 10px;
+    margin-right: 10px;
+    
+   
+}
+.rectangle-introduction .aboutme-text, .opening-text{
+    position: relative;
+    padding-top: 28px;
+    margin-top: 23px;
+    
+
+}
+.rectangle-introduction .aboutme-text::after, .opening-text::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 6px;
+    background-color: #0B3529 ;
+}
+h2 {
+    font-family: Oswald;
+    font-weight: 700;
+    font-size: 36px;
+}
+.opening-text, .opening-text-more, .aboutme-text, .aboutme-text-more {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2599999904632568px;
+    text-align: left;
+}
+h2, .photo {
+    margin: auto;
+}
+.opening-text-more, .aboutme-text-more {
+    padding-top: 25px;
+}
+.photo{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 0;
+
+    
+}
+.photo__rectangle{
+   display: none;
+      
+}
+.photo__owner {
+    min-width: 25%;
+    min-height: auto;
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 0;
+    top: 5px;
+    left: 30px;
+    
+}
+
+}
+/* @media screen and (min-width: 768px) and (max-width: 1199px){
+    .rectangle-introduction {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto; 
+        margin-left:f 0px;
+        margin-right: 0px;
+        
+       
+    }
+    .rectangle-introduction .aboutme-text, .opening-text{
+        position: relative;
+        padding-top: 28px;
+        margin-top: 23px;
+        
+
+    }
+    .rectangle-introduction .aboutme-text::after, .opening-text::after{
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 55px;
+        height: 6px;
+        background-color: #0B3529 ;
+    }
+    h2 {
+        font-family: Oswald;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .opening-text, .opening-text-more, .aboutme-text, .aboutme-text-more {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 1.2599999904632568px;
+        text-align: left;
+    }
+    h2, .photo {
+        margin: auto;
+    }
+    .opening-text-more, .aboutme-text-more {
+        padding-top: 25px;
+    }
+    .photo{
+        position: relative;
+        margin-top: 60px;
+        margin-left: 0;
+
+        
+    }
+    .photo__rectangle{
+       display: none;
+          
+    }
+    .photo__owner {
+        min-width: 25%;
+        min-height: auto;
+        position: absolute;
+        /* margin-top: 7%; */
+        
+        /* top: 5px; */
+        /* left: 30px; */
+        
+    
+    
+
+
+
+
+     
