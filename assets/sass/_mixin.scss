@@ -1,26 +1,38 @@
-/*font-family: 'Open Sans', sans-serif;
+/*font-family: 'Open Sans', sans-serif; 
 font-family: 'Oswald', sans-serif;*/
 
 @mixin heading-h1 {
   font-family: "Oswald", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 4vw;
 }
 
 @mixin heading-h2 {
   font-family: "Oswald", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 2vw;
 }
 
 @mixin heading-h3 {
   font-family: "Oswald", sans-serif;
+  font-style: normal;
   font-weight: 300;
   font-size: 1.3vw;
 }
 
+@mixin text-step {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: #4caf50;
+}
+
 @mixin text-p {
   font-family: "Oswald", sans-serif;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -36,6 +48,10 @@ font-family: 'Oswald', sans-serif;*/
   @mixin heading-h3 {
     font-size: 2vw;
   }
+
+  @mixin text-step {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -48,6 +64,10 @@ font-family: 'Oswald', sans-serif;*/
   }
 
   @mixin heading-h3 {
+    font-size: 3vw;
+  }
+
+  @mixin text-step {
     font-size: 3vw;
   }
 }
