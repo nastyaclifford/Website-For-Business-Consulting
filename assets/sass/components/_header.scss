@@ -30,12 +30,10 @@
     margin-top: 1em;
     width: 35%;
     min-height: 100%;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include text-p;
   }
 
   /*Пункты меню хедера*/
@@ -73,17 +71,15 @@
   /*Центральная надпись секции со слоганом*/
   .header__section-title {
     color: $text-color1;
-    @include heading-h1;
     margin: 0;
+    @include heading-h1;
   }
 
   /*Текст секции со слоганом*/
   .header__section-text {
     color: $text-color1;
-    font-weight: 400;
-    font-size: 1.8vw;
-    line-height: 30px;
     margin-bottom: 0;
+    @include text-p;
   }
 
   @media (min-width: 600px) and (max-width: 1023px) {
@@ -96,8 +92,7 @@
 
     /*Меню хэдера*/
     .header__menu {
-      font-size: 12px;
-      line-height: 17px;
+      @include text-p;
     }
 
     /*Центральная надпись секции со слоганом*/
@@ -108,8 +103,7 @@
 
     /*Текст секции со слоганом*/
     .header__section-text {
-      font-size: 18px;
-      line-height: 24px;
+      @include text-p;
     }
   }
 
@@ -130,8 +124,7 @@
     /*Меню хэдера*/
     .header__menu {
       margin-top: 0;
-      font-size: 12px;
-      line-height: 17px;
+      @include text-p;
     }
 
     /*Оболочка секции со слоганом*/
@@ -151,8 +144,7 @@
 
     /*Текст секции со слоганом*/
     .header__section-text {
-      font-size: 14px;
-      line-height: 19px;
+      @include text-p;
     }
   }
 }
