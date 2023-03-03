@@ -1,8 +1,10 @@
 .rectangle-introduction {
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    margin-left: 6%;
+    margin-left: 5%;
     margin-right: 6%;
+    margin-bottom: 10%;
+    min-height: auto;
 }
 .rectangle-introduction, .aboutme-text, .opening-text{
     position: relative;
@@ -39,14 +41,15 @@ h2 {
 .photo{
     position: relative;
     margin-top: 0px;
-    margin-left: 0;
+    margin-right: 0px;
+    left:135px ;
 }
 .photo__rectangle{
     background-color: $color1;
     min-width: 25%;
     min-height:auto;
     position: absolute;
-    top:30px;
+    top:20px;
     left:90px;
 }
 .photo__owner {
@@ -156,6 +159,7 @@ h2 {
     }
     h2 {
         @include heading-h2;
+        margin: auto;
         /*font-family: Oswald;
         font-weight: 700;
         font-size: 36px;*/
@@ -168,9 +172,7 @@ h2 {
         letter-spacing: 1.2599999904632568px;
         text-align: left;
     }
-    h2 {
-        margin: auto;
-    }
+    
     .opening-text-more, .aboutme-text-more {
         padding-top: 25px;
     }
