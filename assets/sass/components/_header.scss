@@ -33,7 +33,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include text-p;
   }
 
   /*Пункты меню хедера*/
@@ -41,6 +40,7 @@
     color: $text-color1;
     text-decoration: none;
     position: relative;
+    @include text-p;
   }
 
   /*Подчеркивание пунктов меню хедера смещенное*/
@@ -79,31 +79,15 @@
   .header__section-text {
     color: $text-color1;
     margin-bottom: 0;
+    font-size: 1.3vw;
     @include text-p;
   }
 
   @media (min-width: 600px) and (max-width: 1023px) {
     /* CSS-стили Tablet*/
-
     /*Логотип хэдера*/
     .header__logo {
       width: 40%;
-    }
-
-    /*Меню хэдера*/
-    .header__menu {
-      @include text-p;
-    }
-
-    /*Центральная надпись секции со слоганом*/
-    .header__section-title {
-      @include heading-h1;
-      font-size: 5vw;
-    }
-
-    /*Текст секции со слоганом*/
-    .header__section-text {
-      @include text-p;
     }
   }
 
@@ -124,7 +108,6 @@
     /*Меню хэдера*/
     .header__menu {
       margin-top: 0;
-      @include text-p;
     }
 
     /*Оболочка секции со слоганом*/
@@ -134,17 +117,6 @@
       flex-direction: column;
       height: 20rem;
       justify-content: center;
-    }
-
-    /*Центральная надпись секции со слоганом*/
-    .header__section-title {
-      @include heading-h1;
-      font-size: 6vw;
-    }
-
-    /*Текст секции со слоганом*/
-    .header__section-text {
-      @include text-p;
     }
   }
 }
