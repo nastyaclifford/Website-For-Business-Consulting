@@ -12,8 +12,8 @@
 
 .main-advantages__title {
   color: $text-color2;
-  @include heading-h2;
   margin-bottom: 0;
+  @include heading-h2;
 }
 
 .main-advantages__title__decoration {
