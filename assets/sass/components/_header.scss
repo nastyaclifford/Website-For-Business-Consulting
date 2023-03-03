@@ -9,8 +9,6 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  color: white;
-  font-family: "Oswald", "Arial", sans-serif;
   font-style: normal;
 
   /*Оболочка меню хедера*/
@@ -42,7 +40,7 @@
 
   /*Пункты меню хедера*/
   .header__menu-link {
-    color: white;
+    color: $text-color1;
     text-decoration: none;
     position: relative;
   }
@@ -74,12 +72,14 @@
 
   /*Центральная надпись секции со слоганом*/
   .header__section-title {
+    color: $text-color1;
     @include heading-h1;
     margin: 0;
   }
 
   /*Текст секции со слоганом*/
   .header__section-text {
+    color: $text-color1;
     font-weight: 400;
     font-size: 1.8vw;
     line-height: 30px;
