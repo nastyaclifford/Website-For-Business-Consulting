@@ -1,0 +1,88 @@
+.mission-block{
+    background-color: #FBFBFB;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 451px;
+    max-width: 1800px;
+    align-items: center;
+    margin: auto;
+}
+
+.mymission, .unic, .instruments{
+    background-color: #FFFFFF;
+    height: 260px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.mymission__headline_block, .unic__headline_block, .instruments__headline_block{
+    align-items: end;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-bottom: 20px
+}
+
+.mymission__text, .unic__text, .instruments__text{
+    @include text-p;
+    font-size: 0.8rem;
+    font-family: "Open Sans";
+
+    line-height: 1.3rem;
+}
+
+.misson__title{
+    @include heading-h2;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.mymission__icon, .unic__icon, .instruments__icon{
+    justify-self: end;
+}
+
+.icon-mission {
+    width: 100%;
+}
+
+// медиазапросы
+
+@media (min-width: 600px) and (max-width: 1023px){
+    .mymission, .unic, .instruments{
+        height: 330px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .mymission__text, .unic__text, .instruments__text{
+        @include text-p;
+        font-size: 0.7rem;
+        font-family: "Open Sans";
+        line-height: 1.5rem;
+        }
+}
+
+
+
+@media screen and (max-width: 599px){
+    .mission-block{
+        display: block;
+        margin: 0;
+        min-height: 451px;
+        width: 100%;
+    }
+
+
+    .mymission__text, .unic__text, .instruments__text{
+        @include text-p;
+        font-size: 0.8rem;
+        font-family: "Open Sans";
+        line-height: 1.5rem;
+        }
+    
+    .misson__title{
+        @include heading-h2;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+}
