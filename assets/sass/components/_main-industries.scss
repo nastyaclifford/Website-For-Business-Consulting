@@ -7,8 +7,7 @@
 }
 
 .main-industries__title__text {
-  color: $text-color2;
-  @include heading-h2;
+  @include heading-h2($text-color2);
 }
 
 .main-industries__title__decoration {
@@ -77,7 +76,6 @@
 
 @media only screen and (max-width: 281px) {
   .main-industries__title__decoration {
-    margin-right: 40px;
-    margin-top: -5px;
+    margin-top: -2vw;
   }
 }
