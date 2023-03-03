@@ -1,50 +1,48 @@
-.main-stages__title-decoration{
-    width:  4vw;
-    height: 0.1vw;
+.main-stages__title-decoration {
+  width: 4vw;
+  height: 0.1vw;
+}
+.card {
+  border-radius: 8px;
+  display: flex;
+  width: $card-width;
+  height: $card-height;
+  margin-top: 30px;
+}
+.card-title {
+  @include text-step;
 }
 
-.card{
-    border-radius: 8px;
-    display: flex;
-    width: $card-width; 
-    height: $card-height; 
-    margin-top: 30px;
-}
-.card-title{
-    @include text-step;
+.card:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: $box-shadow-card;
+  cursor: pointer;
 }
 
-.card:hover{
-    transform: scale(1.1);
-    transition: all linear 200ms;
-    z-index: 1;
-    box-shadow: $box-shadow-card;
-    cursor: pointer;
+.card-text {
+  @include text-p;
 }
 
-.card-text{
-    @include text-p;
-}
-
-.widget-title{
-    display:flex;
-    justify-content: space-between;
+.widget-title {
+  display: flex;
+  justify-content: space-between;
 }
 .widget-title .widget-info {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
 }
-.widget-title .widget-date{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: $stage-item-width;
-    height: $stage-item-height;
-    border-radius: 50%;
-    background: #FFFFFF;
-    box-shadow: $box-shadow;
-    font-weight: 700;
-
+.widget-title .widget-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: $stage-item-width;
+  height: $stage-item-height;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: $box-shadow;
+  font-weight: 700;
 }
