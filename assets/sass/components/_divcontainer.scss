@@ -1,6 +1,6 @@
-.main-industries__title__decoration{
+.main-stages__title__decoration{
     width:  4vw;
-    height: 0.2vw;
+    height: 0.1vw;
 }
 
 .card{
@@ -22,16 +22,16 @@
     cursor: pointer;
 }
 
-.widget-49-title-wrapper{
+.widget-title{
     display:flex;
     justify-content: space-between;
 }
-.widget-49 .widget-49-title-wrapper .widget-49-meeting-info {
+.widget-title .widget-info {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
 }
-.widget-49-title-wrapper .widget-49-date-primary{
+.widget-title .widget-date{
     display: flex;
     align-items: center;
     justify-content: center;
