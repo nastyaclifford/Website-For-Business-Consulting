@@ -1,6 +1,7 @@
+
 .main-industries__title {
-  margin-left: 25vw;
-  margin-top: 12vw;
+  margin-left: 7vw;
+  margin-top: 10vw;
   display: grid;
   margin-bottom: 6vw;
   max-width: 20vw;
@@ -12,6 +13,7 @@
 }
 
 .main-industries__title__decoration {
+  margin-top: 0.3vw;
   width: 2.3vw;
   height: 0.1vw;
 }
@@ -50,13 +52,17 @@
 
 @media (min-width: 600px) and (max-width: 1023px) {
   .main-industries {
-    margin-left: -14vw;
+    margin-left: 2vw;
+    margin-bottom: -5vw;
   }
   .main-industries__list {
     grid-auto-rows: 100%;
   }
 }
 @media only screen and (max-width: 599px) {
+  .main-industries {
+    margin-bottom: -23vw;
+  }
   .main-industries__list {
     grid-template-columns: 1fr;
     grid-auto-rows: 6vw;
