@@ -1,6 +1,5 @@
-
 .main-industries__title {
-  margin-left: 7vw;
+  margin-left: 8vw;
   margin-top: 10vw;
   display: grid;
   margin-bottom: 6vw;
@@ -53,7 +52,6 @@
 @media (min-width: 600px) and (max-width: 1023px) {
   .main-industries {
     margin-left: 2vw;
-    margin-bottom: -5vw;
   }
   .main-industries__list {
     grid-auto-rows: 100%;
@@ -61,6 +59,7 @@
 }
 @media only screen and (max-width: 599px) {
   .main-industries {
+    margin-left:2vw;
     margin-bottom: -23vw;
   }
   .main-industries__list {
