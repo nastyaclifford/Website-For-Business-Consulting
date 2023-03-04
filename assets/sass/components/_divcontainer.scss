@@ -14,14 +14,6 @@
     @include text-step;
 }
 
-.card:hover{
-    transform: scale(1.1);
-    transition: all linear 200ms;
-    z-index: 1;
-    box-shadow: $box-shadow-card;
-    cursor: pointer;
-}
-
 .card-text{
     @include text-p;
 }
