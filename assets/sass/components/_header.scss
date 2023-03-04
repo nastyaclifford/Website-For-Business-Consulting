@@ -80,7 +80,6 @@
     color: $text-color1;
     margin-bottom: 0;
     font-size: 1.3vw;
-    @include text-p;
   }
 
   @media (min-width: 600px) and (max-width: 1023px) {
@@ -98,16 +97,18 @@
       grid-template-columns: 1fr;
       grid-template-rows: 2fr 1fr;
       justify-content: start;
+      justify-items: start;
     }
 
     /*Логотип хэдера*/
     .header__logo {
-      width: 37%;
+      width: 28%;
     }
 
     /*Меню хэдера*/
     .header__menu {
       margin-top: 0;
+      margin-left: 2em;
     }
 
     /*Оболочка секции со слоганом*/
