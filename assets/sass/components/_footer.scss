@@ -1,9 +1,68 @@
 /* CSS-стили Desktop */
-
+.footer {
+  background-color: #000000;
+  min-height: 8rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footer__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 6rem;
+  padding-top: 1.5rem;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+.footer__section {
+  width: 10.5rem;
+  height: 1.3rem;
+  color: $text-color1;
+  @include text-p;
+}
+.footer__image_underline {
+  padding-top: 0.3rem;
+  padding-left: 1rem;
+  align-self: center;
+}
 @media (min-width: 600px) and (max-width: 1023px) {
   /* CSS-стили Tablet */
+  .footer {
+    min-width: fit-content;
+  }
+  .footer__logo {
+    max-width: 50%;
+    padding-top: 1rem;
+}
+  .footer__image_underline {
+    padding-right: 0.1rem;
+  }
 }
 
 @media screen and (max-width: 599px) {
   /* CSS-стили Smartphone*/
-}
+  .footer {
+    max-height: 5rem;
+  }
+  .footer__logo {
+    max-width: 70%;
+    padding-top: 1.5rem;
+  }
+  .footer__item {
+    flex-direction: column-reverse;
+  }
+  .footer__section {
+    font-size: 0.4rem;
+    max-width: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 1.6rem;
+  }
+  .footer__image_underline {
+   align-self: flex-end;
+   padding-bottom: 0.5rem;
+  height: 0.9rem;
+  }
+  }
