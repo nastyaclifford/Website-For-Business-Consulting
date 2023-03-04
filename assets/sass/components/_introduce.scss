@@ -77,6 +77,7 @@ h2 {
     .photo-aboutme {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 65px;
     }
     .rectangle-introduction-tablet .aboutme-text, .opening-text{
         position: relative;
@@ -97,6 +98,7 @@ h2 {
         /*font-family: Oswald;
         font-weight: 700;
         font-size: 36px;*/
+        padding-top: 30px;
     }
     .opening-text, .opening-text-more, .aboutme-text, .aboutme-text-more {
         font-family: Open Sans;
