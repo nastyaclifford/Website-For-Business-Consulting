@@ -72,9 +72,6 @@ font-family: 'Oswald', sans-serif;*/
   }
 }
 
-@mixin shadow {
-  filter: drop-shadow(0 0 0.75rem crimson);
-}
 
 /* Марина main начало*/
 @mixin card-body__l {
