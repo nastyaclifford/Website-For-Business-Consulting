@@ -39,3 +39,13 @@
   box-shadow: $box-shadow;
   font-weight: 700;
 }
+@media (min-width: 600px) and (max-width: 1023px) {
+  .card-title{
+    font-size: $font-size-text-step-tablet;
+  }
+}
+@media screen and (max-width: 599px){
+  .card-text{
+    font-size: $font-size-text-p-phone;
+  }
+}

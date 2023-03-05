@@ -90,6 +90,9 @@
   .header__logo {
     width: 40%;
   }
+  .header__section-title{
+    font-size: $font-size-h1-tablet;
+  }
 }
 
 @media screen and (max-width: 599px) {
@@ -123,5 +126,8 @@
     flex-direction: column;
     height: 20rem;
     justify-content: center;
+  }
+  .header__menu-link{
+    font-size: $font-size-text-p-phone;
   }
 }

@@ -57,6 +57,13 @@
   .main-industries__list {
     grid-auto-rows: 100%;
   }
+  .main-industries__title__text{
+    font-size: $font-size-h2-tablet;
+  }
+  .main-industries__title__decoration {
+    margin-top: 2vw;
+  }
+  
 }
 @media only screen and (max-width: 599px) {
   .main-industries {
@@ -64,10 +71,9 @@
     margin-bottom: -23vw;
   }
   .main-industries__list {
-    grid-template-columns: 1fr;
-    grid-auto-rows: 6vw;
-    margin-right: 26vw;
-    margin-top: -2vw;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 16vw;
+    margin-right: 20vw;
   }
   .main-industries__title {
     margin-left: 7vw;
@@ -76,8 +82,17 @@
     margin-bottom: 7vw;
   }
   .main-industries__title__decoration {
-    margin-right: 14vw;
-    margin-top: -0.9vw;
+    margin-right: 19vw;
+    margin-top: 2vw;
+  }
+  .main-industries__title__text{
+    font-size: $font-size-h2-phone;
+  }
+  .main-industries__item{
+    font-size: $font-size-text-p-phone;
+  }
+  .main-industries__item-middle{
+    font-size: $font-size-text-p-phone;
   }
 }
 

@@ -23,7 +23,7 @@
 }
 
 .main-advantages__list {
-  letter-spacing: 1.26px;
+  /*letter-spacing: 1.26px;*/
   line-height: 3vw;
   margin: 1vw;
 }
@@ -32,9 +32,15 @@
   .main-advantages__list {
     line-height: 5vw;
   }
+  .main-advantages__title{
+    font-size: $font-size-h2-tablet;
+  }
 }
 @media screen and (max-width: 599px) {
   .main-advantages__list {
     line-height: 5vw;
+  }
+  .main-advantages__title{
+    font-size: $font-size-h2-phone;
   }
 }

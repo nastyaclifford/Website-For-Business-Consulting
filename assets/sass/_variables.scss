@@ -15,6 +15,18 @@ $card-width: 100%;
 $stage-item-height: 4rem;
 $stage-item-width: 4rem;
 $box-shadow: 0px 0px 20px #dbdbdb;
+/*размеры текста стандартные*/
 $font-size-h1: 4vw;
 $font-size-h2: 2vw;
 $font-size-h3: 1.3vw;
+/*размеры текста для планшета*/
+$font-size-h1-tablet: 10vw;
+$font-size-h2-tablet: 3.5vw;
+$font-size-h3-tablet: 2vw;
+$font-size-text-step-tablet: 5vw;
+/*размеры текста для телефона*/
+$font-size-h1-phone: 8vw;
+$font-size-h2-phone: 4vw;
+$font-size-h3-phone: 3vw;
+$font-size-text-step-phone: 6vw;
+$font-size-text-p-phone: 3vw;
