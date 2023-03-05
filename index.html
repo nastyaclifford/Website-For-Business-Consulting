@@ -1,54 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/sass/app.css" />
-    <title>Консалтинговые услуги</title>
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.png"
-      type="image/png"
-    />
-  </head>
 
-  <!--Рекомендации по работе в проекте:
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="assets/sass/app.css" />
+  <title>Консалтинговые услуги</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png" />
+</head>
+
+<!--Рекомендации по работе в проекте:
 (по этому списку буду проверять каждый блок)
 1.	Проверка блока в валидаторах.
 2.	У img развернутый alt.
@@ -59,49 +39,82 @@
 7.	Желательно проверять сразу блоки на переполнение текста
 8.	Variables (переменные используем для шрифтов/повторяющихся цветов)-->
 
-  <!--Девочки, подписываем свои рабочие области, начало/конец-->
-  <body>
-    <div class="root">
-      <header class="header">
-        <div class="header__inner">
-          <div>
-            <img
-              class="header__logo"
-              src="assets/img/consulting-low-resolution-logo-white.svg"
-              alt="Logotype"
-            />
-          </div>
-          <nav class="header__menu">
-            <a class="header__menu-link" href="#">ОБО МНЕ</a>
-            <a class="header__menu-link" href="#">УСЛУГИ</a>
-            <a class="header__menu-link" href="#">КОНТАКТЫ</a>
-          </nav>
+<!--Девочки, подписываем свои рабочие области, начало/конец-->
+
+<body>
+  <div class="root">
+    <header class="header">
+      <div class="header__inner">
+        <div>
+          <img class="header__logo" src="assets/img/consulting-low-resolution-logo-white.svg" alt="Logotype" />
         </div>
-        <section class="header__section">
-          <h1 class="header__section-title">ДОЛГОСРОЧНОЕ РАЗВИТИЕ БИЗНЕСА</h1>
-          <p class="header__section-text">
-            Помогаем предприятиям адаптироваться и развиваться в новых реалиях
-          </p>
-          <p class="header__section-text">ведения бизнеса.</p>
-        </section>
-      </header>
-      <main>
-        <!-- EvgeniyaAygul блок вступление- обо мне introduce -->
-        <section>
-          <div class="rectangle-introduction">
-            <div class="introduction">
-              <h2>ВСТУПЛЕНИЕ</h2>
-              <p class="opening-text">
-                Практика последних 3-х лет показала, что подход к бизнесу резко
-                поменялся, но не все предприятия смогли к тому адаптироваться.
-              </p>
-              <p class="opening-text-more">
-                Опыт говорит о том, что большинство предприятий имеют все
-                возможности для развития даже в условиях турбулентности, однако,
-                не понимают с чего начать.
-              </p>
+        <nav class="header__menu">
+          <a class="header__menu-link" href="#">ОБО МНЕ</a>
+          <a class="header__menu-link" href="#">УСЛУГИ</a>
+          <a class="header__menu-link" href="#">КОНТАКТЫ</a>
+        </nav>
+      </div>
+      <section class="header__section">
+        <h1 class="header__section-title">ДОЛГОСРОЧНОЕ РАЗВИТИЕ БИЗНЕСА</h1>
+        <p class="header__section-text">
+          Помогаем предприятиям адаптироваться и развиваться в новых реалиях
+        </p>
+        <p class="header__section-text">ведения бизнеса.</p>
+      </section>
+    </header>
+    <main>
+      <!-- EvgeniyaAygul блок вступление- обо мне introduce -->
+      <section>
+        <div class="rectangle-introduction">
+          <div class="introduction">
+            <h2>ВСТУПЛЕНИЕ</h2>
+            <p class="opening-text">
+              Практика последних 3-х лет показала, что подход к бизнесу резко
+              поменялся, но не все предприятия смогли к тому адаптироваться.
+            </p>
+            <p class="opening-text-more">
+              Опыт говорит о том, что большинство предприятий имеют все
+              возможности для развития даже в условиях турбулентности, однако,
+              не понимают с чего начать.
+            </p>
+          </div>
+          <div class="photo">
+            <div class="photo__rectangle">
+              <img src="assets/img/green_box.png" alt="green rectangle" />
             </div>
-            <div class="photo">
+            <div class="photo__owner">
+              <img src="assets/img/img_foto.png" alt=" photo Anastasia" />
+            </div>
+          </div>
+          <div class="aboutme">
+            <h2>ОБО МНЕ</h2>
+            <p class="aboutme-text">
+              Добро пожаловать! Меня зовут Анастасия. Более 6 лет помогаю
+              предприятиям выявлять слабые места, структурировать процессы и
+              формировать планы развития.
+            </p>
+            <p class="aboutme-text-more">
+              Я не просто консультирую, а помогаю претворять в жизнь решения и
+              стратегии. Каждый проект – уравнение с множеством переменных,
+              которое нужно решить, чтоб получить корректный результат.
+            </p>
+          </div>
+        </div>
+        <div class="rectangle-introduction-tablet">
+          <div class="introduction-tablet">
+            <h2>ВСТУПЛЕНИЕ</h2>
+            <p class="opening-text">
+              Практика последних 3-х лет показала, что подход к бизнесу резко
+              поменялся, но не все предприятия смогли к тому адаптироваться.
+            </p>
+            <p class="opening-text-more">
+              Опыт говорит о том, что большинство предприятий имеют все
+              возможности для развития даже в условиях турбулентности, однако,
+              не понимают с чего начать.
+            </p>
+          </div>
+          <div class="photo-aboutme">
+            <div class="photo-tablet">
               <div class="photo__rectangle">
                 <img src="assets/img/green_box.png" alt="green rectangle" />
               </div>
@@ -109,7 +122,7 @@
                 <img src="assets/img/img_foto.png" alt=" photo Anastasia" />
               </div>
             </div>
-            <div class="aboutme">
+            <div class="aboutme-tablet">
               <h2>ОБО МНЕ</h2>
               <p class="aboutme-text">
                 Добро пожаловать! Меня зовут Анастасия. Более 6 лет помогаю
@@ -117,565 +130,530 @@
                 формировать планы развития.
               </p>
               <p class="aboutme-text-more">
-                Я не просто консультирую, а помогаю претворять в жизнь решения и
-                стратегии. Каждый проект – уравнение с множеством переменных,
-                которое нужно решить, чтоб получить корректный результат.
+                Я не просто консультирую, а помогаю претворять в жизнь решения
+                и стратегии. Каждый проект – уравнение с множеством
+                переменных, которое нужно решить, чтоб получить корректный
+                результат.
               </p>
             </div>
-          </div>
-          <div class="rectangle-introduction-tablet">
-            <div class="introduction-tablet">
-              <h2>ВСТУПЛЕНИЕ</h2>
-              <p class="opening-text">
-                Практика последних 3-х лет показала, что подход к бизнесу резко
-                поменялся, но не все предприятия смогли к тому адаптироваться.
-              </p>
-              <p class="opening-text-more">
-                Опыт говорит о том, что большинство предприятий имеют все
-                возможности для развития даже в условиях турбулентности, однако,
-                не понимают с чего начать.
-              </p>
-            </div>
-            <div class="photo-aboutme">
-              <div class="photo-tablet">
-                <div class="photo__rectangle">
-                  <img src="assets/img/green_box.png" alt="green rectangle" />
-                </div>
-                <div class="photo__owner">
-                  <img src="assets/img/img_foto.png" alt=" photo Anastasia" />
-                </div>
-              </div>
-              <div class="aboutme-tablet">
-                <h2>ОБО МНЕ</h2>
-                <p class="aboutme-text">
-                  Добро пожаловать! Меня зовут Анастасия. Более 6 лет помогаю
-                  предприятиям выявлять слабые места, структурировать процессы и
-                  формировать планы развития.
-                </p>
-                <p class="aboutme-text-more">
-                  Я не просто консультирую, а помогаю претворять в жизнь решения
-                  и стратегии. Каждый проект – уравнение с множеством
-                  переменных, которое нужно решить, чтоб получить корректный
-                  результат.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="rectangle-introduction-mobile">
-            <div class="introduction-mobile">
-              <h2>ВСТУПЛЕНИЕ</h2>
-              <p class="opening-text">
-                Практика последних 3-х лет показала, что подход к бизнесу резко
-                поменялся, но не все предприятия смогли к тому адаптироваться.
-              </p>
-              <p class="opening-text-more">
-                Опыт говорит о том, что большинство предприятий имеют все
-                возможности для развития даже в условиях турбулентности, однако,
-                не понимают с чего начать.
-              </p>
-            </div>
-            <div class="photo-mobile">
-              <div class="photo__regictangle">
-                <img src="assets/img/green_box.png" alt="green rectangle" />
-              </div>
-              <div class="photo__owner">
-                <img src="assets/img/img_foto.png" alt=" photo Anastasia" />
-              </div>
-            </div>
-            <div class="aboutme-mobile">
-              <h2>ОБО МНЕ</h2>
-              <p class="aboutme-text">
-                Добро пожаловать! Меня зовут Анастасия. Более 6 лет помогаю
-                предприятиям выявлять слабые места, структурировать процессы и
-                формировать планы развития.
-              </p>
-              <p class="aboutme-text-more">
-                Я не просто консультирую, а помогаю претворять в жизнь решения и
-                стратегии. Каждый проект – уравнение с множеством переменных,
-                которое нужно решить, чтоб получить корректный результат.
-              </p>
-            </div>
-          </div>
-
-          <!-- конец -->
-        </section>
-
-        <section></section>
-        <!-- Марина main начало -->
-        <section class="main-services">
-          <h3 class="main-services__title">ОПИСАНИЕ УСЛУГ</h3>
-          <div class="main-services__container">
-            <div class="row pt-5">
-              <div class="card-group">
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__m">
-                      <p class="card-text">
-                        Формирование стратегии/ плана развития предприятия
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
-                    <div class="card-body__s text-white">
-                      <p class="card-text">
-                        1. Диагностика внутренних процессов предприятия.
-                      </p>
-                      <p class="card-text">2. Анализ внешней среды:</p>
-                      <ul class="card-menu">
-                        <li class="card-menu__item">
-                          Анализ продаж по каналам сбыта;
-                        </li>
-                        <li class="card-menu__item">Анализ структуры с/с;</li>
-                        <li class="card-menu__item">
-                          Сравнение показателей компании с средними по отрасли и
-                          с ТОП-конкурентами;
-                        </li>
-                        <li class="card-menu__item">
-                          Построение риск-матрицы;
-                        </li>
-                        <li class="card-menu__item">
-                          Описание ключевых бизнес процессов.
-                        </li>
-                      </ul>
-                      <p class="card-text">3. Анализ внутренней среды:</p>
-                      <ul class="card-menu">
-                        <li class="card-menu__item">
-                          Анализ поставщиков/покупателей;
-                        </li>
-                        <li class="card-menu__item">
-                          Анализ отрасли и ее потенциала;
-                        </li>
-                        <li class="card-menu__item">
-                          Конкурентный анализ по заданным критериям;
-                        </li>
-                        <li class="card-menu__item">
-                          Отслеживание трендов рынка;
-                        </li>
-                        <li class="card-menu__item">
-                          Анализ потенциальных возможностей и угроз.
-                        </li>
-                      </ul>
-                      <p class="card-text">4. SWOT-анализ и пр.</p>
-                      <p class="card-text">
-                        5. Формирование дорожной карты с планом мероприятий;
-                      </p>
-                      <p class="card-text">
-                        6. Формирование финансовой модели в рамках выбранных
-                        мероприятий на рассматриваемый горизонт планирования.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-group">
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__l">
-                      <p class="card-text">
-                        Диагностика бизнес-процессов предприятия
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
-                    <div class="card-body">
-                      <p class="card-text">
-                        Определение точки «А» по каждому процессу.
-                      </p>
-                      <p class="card-text">
-                        Формирование гипотез для достижения точки «Б».
-                      </p>
-                      <p class="card-text">Приоритизация целей</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-group">
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__m">
-                      <p class="card-text">
-                        Формирование бизнес-плана и финансовой модели в
-                        соответствие с целями предприятия
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__s text-white">
-                      <p class="card-text">
-                        Определение основных критериев для оценки предприятия.
-                      </p>
-                      <p class="card-text">
-                        Формирование гипотез достижения целей.
-                      </p>
-                      <p class="card-text">
-                        Описание отрасли, определение места компании в отрасли.
-                      </p>
-                      <p class="card-text">
-                        Составление маркетингового плана развития.
-                      </p>
-                      <p class="card-text">
-                        Расчет показателей на выбранный горизонт планирования.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-group">
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__l">
-                      <p class="card-text">
-                        Выстраивание проектного управления на предприятии
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body">
-                      <p class="card-text">Создание проектной группы.</p>
-                      <p class="card-text">Определение целей работы группы.</p>
-                      <p class="card-text">
-                        Передача и внедрение инструментов проектного управления.
-                      </p>
-                      <p class="card-text">Формирование KPI группы.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card-group">
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6">
-                    <div class="card-body__m">
-                      <p class="card-text">
-                        Описание основных бизнес процессов
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
-                    <div class="card-body__s text-white">
-                      <p class="card-text">
-                        Диагностика внутренних процессов предприятия.
-                      </p>
-                      <p class="card-text">Описание интересующего процесса.</p>
-                      <p class="card-text">
-                        Формирование перечня сильных и слабых сторон процесса.
-                      </p>
-                      <p class="card-text">
-                        Подбор инструментов для усиления слабых мест.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Марина main конец -->
-
-        <section class="bg-light pt-5 pb-5 shadow-sm">
-          <div class="container">
-            <div class="row pt-5">
-              <div class="col-12">
-                <h2 class="main-advantages__title">ЭТАПЫ СООТРУДНИЧЕСТВА</h2>
-                <img
-                  src="assets/img/underline-stages.png"
-                  alt="underline"
-                  class="main-industries__title__decoration"
-                />
-              </div>
-            </div>
-            <div class="row">
-              <!--ADD CLASSES HERE d-flex align-items-stretch-->
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 1</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">1</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Бесплатная консультация в удаленном формате
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!--ADD CLASSES HERE d-flex align-items-stretch-->
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card" style="border-bottom: 3px solid #70bf73">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 2</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">2</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Организация личной встречи и подготовка коммерческого
-                      предложения
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!--ADD CLASSES HERE d-flex align-items-stretch-->
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 3</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">3</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Заключение договора (50% предоплата)
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card" style="border-bottom: 3px solid #70bf73">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 4</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">4</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Диагностика внутренних процессов предприятия
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 5</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">5</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">Проработка выбранного процесса</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card" style="border-bottom: 3px solid #70bf73">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 6</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">6</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Предварительное согласование работ с предприятием
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 7</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">7</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">
-                      Формирование плана мероприятий на определенный период
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 mb-2 d-flex align-items-stretch">
-                <div class="card" style="border-bottom: 3px solid #70bf73">
-                  <div class="card-body d-flex flex-column">
-                    <div class="widget-title">
-                      <div class="widget-info">
-                        <h2 class="card-title">Шаг 8</h2>
-                        <img
-                          src="assets/img/underline-stages.png"
-                          alt="underline"
-                          class="main-stages__title-decoration"
-                        />
-                      </div>
-                      <div class="widget-date">
-                        <span class="widget-49-date-day">8</span>
-                      </div>
-                    </div>
-                    <p class="card-text mb-4">Закрытие проекта</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--Nastya Cliff and Aida/Main, Industries/START-->
-        <section class="main-industries">
-          <div class="main-industries__title">
-            <h2 class="main-industries__title__text">ОТРАСЛЕВОЙ ОПЫТ</h2>
-            <img
-              src="assets/img/underline.png"
-              alt="underline"
-              class="main-industries__title__decoration"
-            />
-          </div>
-          <div class="main-industries__list">
-            <h3 class="main-industries__item">Электроэнергетика</h3>
-            <h3 class="main-industries__item">
-              Электротехническая промышленность
-            </h3>
-            <h3 class="main-industries__item">Сельское хозяйство</h3>
-            <h3 class="main-industries__item">Молочная промышленность</h3>
-            <h3 class="main-industries__item">
-              Целлюлозно-бумажное производство
-            </h3>
-            <h3 class="main-industries__item">
-              Производство кокса и нефтепродуктов
-            </h3>
-            <h3 class="main-industries__item">Производство детских игрушек</h3>
-            <h3 class="main-industries__item">Текстильное производство</h3>
-            <h3 class="main-industries__item">Промышленность пластмасс</h3>
-            <h3 class="main-industries__item-middle">И прочее</h3>
-          </div>
-        </section>
-        <!--Nastya Cliff and Aida/Main, Industries/END-->
-        <!-- Начало Advantages Катя -->
-        <section class="main-advantages">
-          <h2 class="main-advantages__title">ПОЧЕМУ Я?</h2>
-          <img
-            class="main-advantages__title__decoration"
-            src="assets/img/underline.png"
-            alt="underline"
-          />
-          <ul class="main-advantages__list">
-            <li>Индивидуальный подход</li>
-            <li>Доступ к источникам сбора отраслевых данных</li>
-            <li>Мобильность (выезд на предприятие)</li>
-            <li>Содействие в выстраивании бизнес- процессов</li>
-            <li>Применение инструментов бережливого производства</li>
-          </ul>
-        </section>
-        <!-- Конец Advantages Катя -->
-        <section></section>
-      </main>
-      <!-- Начало Footer Ксения -->
-      <footer class="footer">
-        <img
-          src="assets/img/footerlogo.svg"
-          alt="footerlogo"
-          class="footer__logo"
-        />
-        <div class="footer__menu">
-          <div class="footer__item">
-            <div class="footer__section">ИП ---------</div>
-            <img
-              src="assets/img/footerunderline-min.svg"
-              alt="footerunderline"
-              class="footer__image_underline"
-            />
-          </div>
-          <div class="footer__item">
-            <div class="footer__section">+1111111111</div>
-            <img
-              src="assets/img/footerunderline-min.svg"
-              alt="footerunderline"
-              class="footer__image_underline"
-            />
-          </div>
-          <div class="footer__item">
-            <div class="footer__section">EMAIL@email</div>
-            <img
-              src="assets/img/footerunderline-min.svg"
-              alt="footerunderline"
-              class="footer__image_underline"
-            />
           </div>
         </div>
-      </footer>
-      <!-- Конец Footer Ксения -->
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <div class="rectangle-introduction-mobile">
+          <div class="introduction-mobile">
+            <h2>ВСТУПЛЕНИЕ</h2>
+            <p class="opening-text">
+              Практика последних 3-х лет показала, что подход к бизнесу резко
+              поменялся, но не все предприятия смогли к тому адаптироваться.
+            </p>
+            <p class="opening-text-more">
+              Опыт говорит о том, что большинство предприятий имеют все
+              возможности для развития даже в условиях турбулентности, однако,
+              не понимают с чего начать.
+            </p>
+          </div>
+          <div class="photo-mobile">
+            <div class="photo__regictangle">
+              <img src="assets/img/green_box.png" alt="green rectangle" />
+            </div>
+            <div class="photo__owner">
+              <img src="assets/img/img_foto.png" alt=" photo Anastasia" />
+            </div>
+          </div>
+          <div class="aboutme-mobile">
+            <h2>ОБО МНЕ</h2>
+            <p class="aboutme-text">
+              Добро пожаловать! Меня зовут Анастасия. Более 6 лет помогаю
+              предприятиям выявлять слабые места, структурировать процессы и
+              формировать планы развития.
+            </p>
+            <p class="aboutme-text-more">
+              Я не просто консультирую, а помогаю претворять в жизнь решения и
+              стратегии. Каждый проект – уравнение с множеством переменных,
+              которое нужно решить, чтоб получить корректный результат.
+            </p>
+          </div>
+        </div>
+
+        <!-- конец -->
+      </section>
+
+      <!-- Начало Mission-block -->
+      <section class="mission-block__wrapper">
+        <div class="mission-block">
+          <div class="mymission">
+            <div class="mymission__headline_block">
+              <div class="mymission__headline_title">
+                <h5 class="misson__title">Моя миссия</h5>
+                <div class="mymission_line">
+                  <img src="./assets/img/underline.png" alt="title underline">
+                </div>
+              </div>
+              <div class="mymission_icon">
+                <img src="./assets/img/growth2.png" alt="icon-mission">
+              </div>
+            </div>
+            <p class="mymission__text">Оказывать содействие в получении положительного результата для предприятий,
+              выраженного в экономическом эффекте.
+            </p>
+          </div>
+
+          <div class="unic">
+            <div class="unic__headline_block">
+              <div class="unic__headline_title">
+                <h5 class="misson__title">Уникальность</h5>
+                <div class="unic_line">
+                  <img src="./assets/img/underline.png" alt="title underline">
+                </div>
+              </div>
+              <div class="unic_icon">
+                <img src="./assets/img/solving2.png" alt="icon-unic">
+              </div>
+            </div>
+            <p class="unic__text">Погружение в деятельность предприятия для формирования более конкретных
+              гипотез развития компании.</p>
+          </div>
+
+          <div class="instruments">
+            <div class="instruments__headline_block">
+              <div class="instruments__headline_title">
+                <h5 class="misson__title">Инструменты</h5>
+                <div class="instruments_line">
+                  <img src="./assets/img/underline.png" alt="title underline">
+                </div>
+              </div>
+              <div class="instruments_icon">
+                <img src="./assets/img/online_data2.png" alt="icon-instruments">
+              </div>
+            </div>
+            <p class="instruments__text">Классические инструменты экономической теории, а также инструменты
+              бережливого
+              производства.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Конец Mission-block -->
+
+      <!-- Марина main начало -->
+      <section class="main-services">
+        <h3 class="main-services__title">ОПИСАНИЕ УСЛУГ</h3>
+        <div class="main-services__container">
+          <div class="row pt-5">
+            <div class="card-group">
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__m">
+                    <p class="card-text">
+                      Формирование стратегии/ плана развития предприятия
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
+                  <div class="card-body__s text-white">
+                    <p class="card-text">
+                      1. Диагностика внутренних процессов предприятия.
+                    </p>
+                    <p class="card-text">2. Анализ внешней среды:</p>
+                    <ul class="card-menu">
+                      <li class="card-menu__item">
+                        Анализ продаж по каналам сбыта;
+                      </li>
+                      <li class="card-menu__item">Анализ структуры с/с;</li>
+                      <li class="card-menu__item">
+                        Сравнение показателей компании с средними по отрасли и
+                        с ТОП-конкурентами;
+                      </li>
+                      <li class="card-menu__item">
+                        Построение риск-матрицы;
+                      </li>
+                      <li class="card-menu__item">
+                        Описание ключевых бизнес процессов.
+                      </li>
+                    </ul>
+                    <p class="card-text">3. Анализ внутренней среды:</p>
+                    <ul class="card-menu">
+                      <li class="card-menu__item">
+                        Анализ поставщиков/покупателей;
+                      </li>
+                      <li class="card-menu__item">
+                        Анализ отрасли и ее потенциала;
+                      </li>
+                      <li class="card-menu__item">
+                        Конкурентный анализ по заданным критериям;
+                      </li>
+                      <li class="card-menu__item">
+                        Отслеживание трендов рынка;
+                      </li>
+                      <li class="card-menu__item">
+                        Анализ потенциальных возможностей и угроз.
+                      </li>
+                    </ul>
+                    <p class="card-text">4. SWOT-анализ и пр.</p>
+                    <p class="card-text">
+                      5. Формирование дорожной карты с планом мероприятий;
+                    </p>
+                    <p class="card-text">
+                      6. Формирование финансовой модели в рамках выбранных
+                      мероприятий на рассматриваемый горизонт планирования.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-group">
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__l">
+                    <p class="card-text">
+                      Диагностика бизнес-процессов предприятия
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Определение точки «А» по каждому процессу.
+                    </p>
+                    <p class="card-text">
+                      Формирование гипотез для достижения точки «Б».
+                    </p>
+                    <p class="card-text">Приоритизация целей</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-group">
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__m">
+                    <p class="card-text">
+                      Формирование бизнес-плана и финансовой модели в
+                      соответствие с целями предприятия
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__s text-white">
+                    <p class="card-text">
+                      Определение основных критериев для оценки предприятия.
+                    </p>
+                    <p class="card-text">
+                      Формирование гипотез достижения целей.
+                    </p>
+                    <p class="card-text">
+                      Описание отрасли, определение места компании в отрасли.
+                    </p>
+                    <p class="card-text">
+                      Составление маркетингового плана развития.
+                    </p>
+                    <p class="card-text">
+                      Расчет показателей на выбранный горизонт планирования.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-group">
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__l">
+                    <p class="card-text">
+                      Выстраивание проектного управления на предприятии
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body">
+                    <p class="card-text">Создание проектной группы.</p>
+                    <p class="card-text">Определение целей работы группы.</p>
+                    <p class="card-text">
+                      Передача и внедрение инструментов проектного управления.
+                    </p>
+                    <p class="card-text">Формирование KPI группы.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-group">
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6">
+                  <div class="card-body__m">
+                    <p class="card-text">
+                      Описание основных бизнес процессов
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
+                  <div class="card-body__s text-white">
+                    <p class="card-text">
+                      Диагностика внутренних процессов предприятия.
+                    </p>
+                    <p class="card-text">Описание интересующего процесса.</p>
+                    <p class="card-text">
+                      Формирование перечня сильных и слабых сторон процесса.
+                    </p>
+                    <p class="card-text">
+                      Подбор инструментов для усиления слабых мест.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Марина main конец -->
+
+      <section class="bg-light pt-5 pb-5 shadow-sm">
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-12">
+              <h2 class="main-advantages__title">ЭТАПЫ СООТРУДНИЧЕСТВА</h2>
+              <img src="assets/img/underline-stages.png" alt="underline" class="main-industries__title__decoration" />
+            </div>
+          </div>
+          <div class="row">
+            <!--ADD CLASSES HERE d-flex align-items-stretch-->
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 1</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">1</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Бесплатная консультация в удаленном формате
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--ADD CLASSES HERE d-flex align-items-stretch-->
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card" style="border-bottom: 3px solid #70bf73">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 2</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">2</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Организация личной встречи и подготовка коммерческого
+                    предложения
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--ADD CLASSES HERE d-flex align-items-stretch-->
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 3</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">3</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Заключение договора (50% предоплата)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card" style="border-bottom: 3px solid #70bf73">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 4</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">4</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Диагностика внутренних процессов предприятия
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 5</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">5</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">Проработка выбранного процесса</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card" style="border-bottom: 3px solid #70bf73">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 6</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">6</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Предварительное согласование работ с предприятием
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 7</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">7</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">
+                    Формирование плана мероприятий на определенный период
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mb-2 d-flex align-items-stretch">
+              <div class="card" style="border-bottom: 3px solid #70bf73">
+                <div class="card-body d-flex flex-column">
+                  <div class="widget-title">
+                    <div class="widget-info">
+                      <h2 class="card-title">Шаг 8</h2>
+                      <img src="assets/img/underline-stages.png" alt="underline"
+                        class="main-stages__title-decoration" />
+                    </div>
+                    <div class="widget-date">
+                      <span class="widget-49-date-day">8</span>
+                    </div>
+                  </div>
+                  <p class="card-text mb-4">Закрытие проекта</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Nastya Cliff and Aida/Main, Industries/START-->
+      <section class="main-industries">
+        <div class="main-industries__title">
+          <h2 class="main-industries__title__text">ОТРАСЛЕВОЙ ОПЫТ</h2>
+          <img src="assets/img/underline.png" alt="underline" class="main-industries__title__decoration" />
+        </div>
+        <div class="main-industries__list">
+          <h3 class="main-industries__item">Электроэнергетика</h3>
+          <h3 class="main-industries__item">
+            Электротехническая промышленность
+          </h3>
+          <h3 class="main-industries__item">Сельское хозяйство</h3>
+          <h3 class="main-industries__item">Молочная промышленность</h3>
+          <h3 class="main-industries__item">
+            Целлюлозно-бумажное производство
+          </h3>
+          <h3 class="main-industries__item">
+            Производство кокса и нефтепродуктов
+          </h3>
+          <h3 class="main-industries__item">Производство детских игрушек</h3>
+          <h3 class="main-industries__item">Текстильное производство</h3>
+          <h3 class="main-industries__item">Промышленность пластмасс</h3>
+          <h3 class="main-industries__item-middle">И прочее</h3>
+        </div>
+      </section>
+      <!--Nastya Cliff and Aida/Main, Industries/END-->
+      <!-- Начало Advantages Катя -->
+      <section class="main-advantages">
+        <h2 class="main-advantages__title">ПОЧЕМУ Я?</h2>
+        <img class="main-advantages__title__decoration" src="assets/img/underline.png" alt="underline" />
+        <ul class="main-advantages__list">
+          <li>Индивидуальный подход</li>
+          <li>Доступ к источникам сбора отраслевых данных</li>
+          <li>Мобильность (выезд на предприятие)</li>
+          <li>Содействие в выстраивании бизнес- процессов</li>
+          <li>Применение инструментов бережливого производства</li>
+        </ul>
+      </section>
+      <!-- Конец Advantages Катя -->
+      <section></section>
+    </main>
+    <!-- Начало Footer Ксения -->
+    <footer class="footer">
+      <img src="assets/img/footerlogo.svg" alt="footerlogo" class="footer__logo" />
+      <div class="footer__menu">
+        <div class="footer__item">
+          <div class="footer__section">ИП ---------</div>
+          <img src="assets/img/footerunderline-min.svg" alt="footerunderline" class="footer__image_underline" />
+        </div>
+        <div class="footer__item">
+          <div class="footer__section">+1111111111</div>
+          <img src="assets/img/footerunderline-min.svg" alt="footerunderline" class="footer__image_underline" />
+        </div>
+        <div class="footer__item">
+          <div class="footer__section">EMAIL@email</div>
+          <img src="assets/img/footerunderline-min.svg" alt="footerunderline" class="footer__image_underline" />
+        </div>
+      </div>
+    </footer>
+    <!-- Конец Footer Ксения -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
