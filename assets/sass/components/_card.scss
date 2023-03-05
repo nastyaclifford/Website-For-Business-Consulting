@@ -1,26 +1,3 @@
-/* CSS-стили Desktop */
-/*.card {
-  margin-top: auto;
-  border-radius: 0;
-  .card-body-m {
-    font-size: $font-size-2;
-    text-align: center;
-    padding: 120px;
-  }
-  .card-body-s {
-    min-width: 95%;
-    min-height: 250px;
-    padding: 20px;
-    @include text-p;
-    font-size: 1.3vw;
-  }
-
-  .card-body-l {
-    @include card-body_l;
-    font-size: $font-size-2;
-  }
-}*/
-/* CSS-стили Desktop */
 .card {
   color: #5b5858;
   margin-top: auto;
@@ -32,21 +9,19 @@
 .text-left {
   text-align: center;
 }
-​ 
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* CSS-стили Tablet */
-  
+.text-center {
+  justify-content: center;
 }
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+
+}
+
 @media screen and (max-width: 599px) {
-  /* CSS-стили Smartphone*/
-  ​ .card-body-m {
-    padding: 80px;
-  }
-  ​ .card-body-l {
-    padding: 80px;
+  .main-services {
+    padding-top: 40%;
   }
   .text-right{
-    font-size:3vw;
+    font-size: 3vw;
   }
   .services-phone {
     display: flex;
