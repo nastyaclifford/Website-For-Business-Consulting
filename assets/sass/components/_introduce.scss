@@ -11,7 +11,7 @@
 .opening-text {
   position: relative;
   padding-top: 28px;
-  margin-top: 23px;
+  margin-top: 10px;
 }
 .rectangle-introduction .aboutme-text::after,
 .opening-text::after {
@@ -25,48 +25,42 @@
 }
 h2 {
   @include heading-h2;
-  /*font-family: Oswald;
-    font-weight: 700;
-    font-size: 36px;*/
 }
 .opening-text,
 .opening-text-more,
 .aboutme-text,
 .aboutme-text-more {
-  font-family: Open Sans;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 25px;
   letter-spacing: 1.2599999904632568px;
   text-align: left;
 }
-
 .opening-text-more,
 .aboutme-text-more {
   padding-top: 25px;
 }
 .photo {
   position: relative;
-  margin-top: 0px;
-  margin-right: 0px;
-  left: 135px;
+  max-width: 80%;
 }
 .photo__rectangle {
   background-color: $color1;
-  min-width: 25%;
+  width: 80%;
   min-height: auto;
   position: absolute;
-  top: 20px;
-  left: 90px;
+  margin-top: 12%;
+  margin-left: 23%;
 }
 .photo__owner {
-  min-width: 25%;
+  width: 80%;
   min-height: auto;
   position: absolute;
-  margin-top: 7%;
-  margin-left: 5%;
-  top: 10px;
-  left: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.img-coach,
+.green {
+  width: 100%;
+  object-fit: cover;
 }
 @media (min-width: 1200px) {
   .rectangle-introduction-tablet,
@@ -87,12 +81,13 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 65px;
+    gap: 5px;
   }
   .rectangle-introduction-tablet .aboutme-text,
   .opening-text {
     position: relative;
     padding-top: 28px;
-    margin-top: 23px;
+    margin-top: 10px;
   }
   .rectangle-introduction-tablet .aboutme-text::after,
   .opening-text::after {
@@ -105,43 +100,23 @@ h2 {
     background-color: $color1;
   }
   h2 {
-    @include heading-h2;
-    /*font-family: Oswald;
-        font-weight: 700;
-        font-size: 36px;*/
     padding-top: 30px;
-  }
-  .opening-text,
-  .opening-text-more,
-  .aboutme-text,
-  .aboutme-text-more {
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 1.2599999904632568px;
-    text-align: left;
+    @include heading-h2;
   }
   h2,
   .photo-tablet {
     margin: auto;
   }
-  .opening-text-more,
-  .aboutme-text-more {
-    padding-top: 25px;
-  }
   .photo-tablet {
+    width: 90%;
     position: relative;
-    margin-top: 20px;
-    margin-left: 0;
   }
-  .photo__rectangle {
+  .photo-tablet__rectangle {
     display: none;
   }
-  .photo__owner {
-    min-width: 25%;
+  .photo-tablet__owner {
+    width: 100%;
     min-height: auto;
-    position: absolute;
   }
   .aboutme-tablet {
     margin-top: 5%;
@@ -157,13 +132,13 @@ h2 {
     grid-template-rows: repeat(3, 1fr);
     margin-left: 5%;
     margin-right: 5%;
-    gap: 20px;
+    gap: 10px;
   }
   .rectangle-introduction-mobile .aboutme-text,
   .opening-text {
     position: relative;
     padding-top: 28px;
-    margin-top: 23px;
+    margin-top: 10px;
   }
   .rectangle-introduction-mobile .aboutme-text::after,
   .opening-text::after {
@@ -179,42 +154,27 @@ h2 {
     margin-top: 5%;
   }
   h2 {
-    @include heading-h2;
     margin: auto;
-    /*font-family: Oswald;
-        font-weight: 700;
-        font-size: 36px;*/
-  }
-  .opening-text,
-  .opening-text-more,
-  .aboutme-text,
-  .aboutme-text-more {
-    font-family: Open Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 1.2599999904632568px;
-    text-align: left;
-  }
-
-  .opening-text-more,
-  .aboutme-text-more {
-    padding-top: 25px;
+    @include heading-h2;
   }
   .photo-mobile {
-    position: relative;
+    display: flex;
+    flex-direction: row;
     min-height: auto;
     margin-top: -13%;
   }
-  .photo__owner {
-    min-width: 25%;
+  .photo-mobile__owner {
+    min-width: 60%;
     min-height: auto;
-    position: absolute;
+    position: relative;
+    left: -50%;
+    top: -3%;
   }
-  .photo__rectangle {
-    min-width: 25%;
+  .photo-mobile__rectangle {
+    min-width: 60%;
     min-height: auto;
-    position: absolute;
+    position: relative;
+    left: 5%;
   }
   .aboutme-mobile {
     margin-top: 5%;
