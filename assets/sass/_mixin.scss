@@ -36,13 +36,13 @@ font-family: 'Oswald', sans-serif;*/
   font-weight: 400;
 }
 
-@mixin basetext-p {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-size: 0.7vw;
-  line-height: 1.5rem;
-  font-weight: 400;
-}
+// @mixin basetext-p {
+//   font-family: "Open Sans", sans-serif;
+//   font-style: normal;
+//   font-size: 0.7vw;
+//   line-height: 1.5rem;
+//   font-weight: 400;
+// }
 
 @media (min-width: 600px) and (max-width: 1023px) {
   @mixin heading-h1 {
