@@ -1,9 +1,19 @@
 .main-services {
-  padding: 20px;
-  .main-services__title {
-    .h3 {
-      margin-top: none;
-      margin-bottom: none;
-    }
-  }
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 2%;
+  padding-left: 2vw;
+}
+
+.main-services__title {
+  color: $text-color2;
+  margin-bottom: 0;
+  margin-left: 5px;
+  @include heading-h2;
+}
+
+.main-services__title__decoration {
+  width: 2.3vw;
+  height: 0.1vw;
 }
