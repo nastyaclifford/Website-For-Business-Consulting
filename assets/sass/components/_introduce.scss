@@ -24,6 +24,7 @@
   background-color: $color1;
 }
 h2 {
+  font-size: $font-size-h2;
   @include heading-h2;
 }
 .opening-text,

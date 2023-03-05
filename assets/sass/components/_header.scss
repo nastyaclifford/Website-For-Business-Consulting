@@ -73,6 +73,7 @@
 .header__section-title {
   color: $text-color1;
   margin: 0;
+  font-size: $font-size-h1;
   @include heading-h1;
 }
 
