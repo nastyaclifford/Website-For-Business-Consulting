@@ -1,19 +1,27 @@
+/* CSS-стили Desktop */
 .main-services {
   width: 90%;
   margin-left: 10%;
   margin-right: 10%;
   padding-bottom: 2%;
-  padding-left: 2vw;
+  margin-top: 5%;
 }
-
-.main-services__title {
+​ .row {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+​ .main-services__title {
   color: $text-color2;
-  margin-bottom: 0;
-  margin-left: 5px;
+  margin: 0;
+  padding: 0;
   @include heading-h2;
 }
-
-.main-services__title__decoration {
+​ .main-services__title__decoration {
   width: 2.3vw;
   height: 0.1vw;
+}
+@media screen and (max-width: 599px) {
+  .main-services__title {
+    margin-top: 2%;
+  }
 }
