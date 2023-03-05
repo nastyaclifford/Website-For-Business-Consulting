@@ -4,10 +4,12 @@
   min-height: 8rem;
   display: grid;
   grid-template-columns: 50% 50%;
+  max-width: 100%;
 }
 .footer__logo {
-  width: 45%;
+  width: 18%;
   padding-top: 1rem;
+  margin-left: 7rem;
 }
 .footer__menu {
   display: flex;
@@ -40,9 +42,9 @@
     grid-template-columns: 30% 70%;
   }
  .footer__logo {
-    max-width: 85%;
-    width: 85%;
     padding-top: 1.5rem;
+    width: 45%;
+    margin-left: 0;
 }
 .footer__section {
   width: 20vw;
@@ -62,11 +64,11 @@
   }
   .footer__logo {
     max-width: 100%;
-    width: 100%;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     margin-left: 1rem;
     align-self: center;
+    width: 38%;
   }
   .footer__menu {
     flex-direction: column;
