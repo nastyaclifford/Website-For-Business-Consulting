@@ -83,7 +83,6 @@ font-family: 'Oswald', sans-serif;*/
     font-size: 3vw;
     line-height: 1.1rem;
   }
-
 }
 
 @mixin shadow {
@@ -91,37 +90,11 @@ font-family: 'Oswald', sans-serif;*/
 }
 
 /* Марина main начало*/
-@mixin card-body__l {
-  background-color: #dbefdc;
-  color: #5b5858;
-  min-width: 100%;
+@mixin card-body-l {
+  min-width: 95%;
   min-height: 250px;
   padding: 120px;
   text-align: center;
 }
 
-@mixin card-body__s {
-  background-color: #0b3529;
-  min-width: 100%;
-  min-height: 250px;
-  padding: 20px;
-}
-/* Марина main конец*/
-
-/* Марина main начало*/
-@mixin card-body__l {
-  background-color: #dbefdc;
-  color: #5b5858;
-  min-width: 100%;
-  min-height: 250px;
-  padding: 120px;
-  text-align: center;
-}
-
-@mixin card-body__s {
-  background-color: #0b3529;
-  min-width: 100%;
-  min-height: 250px;
-  padding: 20px;
-}
 /* Марина main конец*/
