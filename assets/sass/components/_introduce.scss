@@ -101,7 +101,6 @@ h2 {
   }
   h2 {
     padding-top: 30px;
-    @include heading-h2;
   }
   h2,
   .photo-tablet {
@@ -155,7 +154,6 @@ h2 {
   }
   h2 {
     margin: auto;
-    @include heading-h2;
   }
   .photo-mobile {
     display: flex;
