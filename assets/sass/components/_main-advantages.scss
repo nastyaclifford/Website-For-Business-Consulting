@@ -27,6 +27,18 @@
   line-height: 3vw;
   margin: 1vw;
 }
+a.button3{
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:2em 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  color:#FFFFFF;
+  background-color: $text-color-stages;
+  text-align:center;
+  transition: all 0.2s;
+}
 
 @media (min-width: 600px) and (max-width: 1023px) {
   .main-advantages__list {
@@ -35,7 +47,9 @@
   .main-advantages__title{
     font-size: $font-size-h2-tablet;
   }
-}
+  }
+
+
 @media screen and (max-width: 599px) {
   .main-advantages__list {
     line-height: 5vw;
@@ -43,5 +57,11 @@
   }
   .main-advantages__title{
     font-size: $font-size-h2-phone;
+  }
+}
+@media all and (max-width:30em){
+  a.button3{
+    display:block;
+    margin:0.2em auto;
   }
 }
