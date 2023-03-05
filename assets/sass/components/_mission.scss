@@ -30,11 +30,7 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.mymission__text,
-.unic__text,
-.instruments__text {
-  color: $text-color2;
-}
+
 .mission-title {
   color: $text-color2;
   text-transform: uppercase;
@@ -59,7 +55,6 @@
   .mymission__text,
   .unic__text,
   .instruments__text {
-    color: $text-color2;
     line-height: 1.1rem;
   }
   .mission-title {
@@ -86,11 +81,6 @@
     align-items: center;
     // border: 1px dashed rgb(8, 116, 49);
     grid-template-columns: 2fr 0.5fr;
-  }
-  .mymission__text,
-  .unic__text,
-  .instruments__text {
-    color: $text-color2;
   }
   .mission-title {
     font-weight: 100;
