@@ -1,105 +1,100 @@
-.mission-wrapper{
-    background-color: #FBFBFB;
-    display: grid;
-    min-height: 451px;
-    justify-items: center;
-    width: 100%;
+.mission-wrapper {
+  background-color: #fbfbfb;
+  display: grid;
+  min-height: 451px;
+  justify-items: center;
+  width: 100%;
 }
-
-.mission-block{
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    max-height: 450px;
-    max-width: 1800px;
-    padding: 20px;
+.mission-block {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-height: 450px;
+  max-width: 1800px;
+  padding: 20px;
 }
-
-.mymission, .unic, .instruments{
-    // border: 1px dashed red;
-    background-color: #FFFFFF;
-    height: 300px;
-    margin: 50px;
-    padding: 20px;
+.mymission,
+.unic,
+.instruments {
+  // border: 1px dashed red;
+  background-color: #ffffff;
+  height: 300px;
+  margin: 50px;
+  padding: 20px;
 }
-
-.mymission__headline-block, .unic__headline-block, .instruments__headline-block{
-    // border: 1px dashed rgb(8, 116, 49);
-    align-items: end;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+.mymission__headline-block,
+.unic__headline-block,
+.instruments__headline-block {
+  // border: 1px dashed rgb(8, 116, 49);
+  align-items: end;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
-
-.mymission__text, .unic__text, .instruments__text{
-    color: $text-color2;
+.mymission__text,
+.unic__text,
+.instruments__text {
+  color: $text-color2;
 }
-
-.mission-title{
-    color: $text-color2;
-    text-transform: uppercase;
-    @include heading-h3;
+.mission-title {
+  color: $text-color2;
+  text-transform: uppercase;
+  @include heading-h3;
 }
-
-
 .icon-mission {
-    width: 100%;
+  width: 100%;
 }
-
-.icon-mission img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.icon-mission img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
-
 // медиазапросы
-
-@media (min-width: 600px) and (max-width: 1023px){
-    .mymission, .unic, .instruments{
-        height: 230px;
-        margin: 5px;
-    }
-
-    .mymission__text, .unic__text, .instruments__text{
-        color: $text-color2;
-        line-height: 1.1rem;
-    }
-
-    .mission-title{
-        @include heading-h2;
-        font-weight: 100;
-    }
+@media (min-width: 600px) and (max-width: 1023px) {
+  .mymission,
+  .unic,
+  .instruments {
+    height: 230px;
+    margin: 5px;
+  }
+  .mymission__text,
+  .unic__text,
+  .instruments__text {
+    color: $text-color2;
+    line-height: 1.1rem;
+  }
+  .mission-title {
+    @include heading-h2;
+    font-weight: 100;
+  }
 }
-
-
-
-@media screen and (max-width: 599px){
-    .mission-block{
-        display: grid;
-        grid-template-columns: 1fr;
-        min-height: 60vh;
-        width: 100%;
-        padding: 0;
-    }
-
-.mymission, .unic, .instruments{
+@media screen and (max-width: 599px) {
+  .mission-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 60vh;
+    width: 100%;
+    padding: 0;
+  }
+  .mymission,
+  .unic,
+  .instruments {
     height: 160px;
     margin: 10px;
-}
-
-.mymission__headline-block, .unic__headline-block, .instruments__headline-block{
+  }
+  .mymission__headline-block,
+  .unic__headline-block,
+  .instruments__headline-block {
     align-items: center;
     // border: 1px dashed rgb(8, 116, 49);
     grid-template-columns: 2fr 0.5fr;
-    
-}
-
-    .mymission__text, .unic__text, .instruments__text{
-        color: $text-color2;
-        }
-    
-    .mission-title{
-        @include heading-h2;
-        font-weight: 100;
-    }
+  }
+  .mymission__text,
+  .unic__text,
+  .instruments__text {
+    color: $text-color2;
+  }
+  .mission-title {
+    @include heading-h2;
+    font-weight: 100;
+  }
 }
