@@ -42,7 +42,7 @@
 }
 @media (min-width: 600px) and (max-width: 1023px) {
   .card-title {
-    font-size: $font-size-text-step-tablet;
+    font-size: $font-size-h3-tablet;
   }
   .card-text {
     font-size: 2.2vw;
@@ -50,6 +50,9 @@
 }
 @media screen and (max-width: 599px) {
   .card-text {
-    font-size: $font-size-text-p-phone;
+    font-size: $font-size-h3-phone;
+  }
+  .card-title {
+    font-size: $font-size-h3-phone;
   }
 }
