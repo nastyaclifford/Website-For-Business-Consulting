@@ -22,11 +22,19 @@
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
+  .main-services {
+    width: 95%;
+    margin-left: 7%;
+  }
   .main-services__title {
     font-size: $font-size-h2-tablet;
   }
 }
 @media screen and (max-width: 599px) {
+  .main-services {
+    margin-left: 3%;
+    width: 100%;
+  }
   .main-services__title {
     margin-top: 2%;
     font-size: $font-size-h2-phone;
