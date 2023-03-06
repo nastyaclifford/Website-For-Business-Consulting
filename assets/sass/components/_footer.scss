@@ -16,13 +16,13 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-right: 6rem;
+  padding-right: 5rem;
   padding-top: 1.5rem;
 }
 .footer__section {
-  width: 50%;
+  width: 60%;
   word-wrap: break-word;
-  margin-right: 2rem;
+  margin-right: 1.2rem;
   font-size: 1.2vw;
   color: $text-color1;
   @include text-p;
@@ -53,11 +53,14 @@
     margin-left: 0;
   }
   .footer__section {
-    width: 20vw;
+    width: 40vw;
   }
   .footer__section::after {
-    width: 3vw;
+    width: 3.5vw;
     margin-left: 3vw;
+  }
+  .footer__section {
+    font-size: $font-size-h3;
   }
 }
 
