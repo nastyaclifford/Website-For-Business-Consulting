@@ -39,13 +39,37 @@ a.button3 {
   transition: all 0.2s;
 }
 @media (min-width: 1240px) and (max-width: 1500px) {
+  .main-advantages__title {
+    color: $text-color2;
+    margin-bottom: 0;
+    font-size: $font-size-h2;
+    @include heading-h2;
+  }
   .main-advantages {
     margin-top: 50%;
   }
+  .main-advantages__list {
+    line-height: 5vw;
+  }
+  .main-advantages__title__decoration {
+    margin-top: 0%;
+  }
 }
 @media (min-width: 1022px) and (max-width: 1239px) {
+  .main-advantages__title {
+    color: $text-color2;
+    margin-bottom: 0;
+    font-size: $font-size-h2;
+    @include heading-h2;
+  }
   .main-advantages {
     margin-top: 55%;
+  }
+  .main-advantages__list {
+    line-height: 5vw;
+  }
+  .main-advantages__title__decoration {
+    margin-top: 0%;
   }
 }
 @media (min-width: 875px) and (max-width: 1023px) {
@@ -65,6 +89,15 @@ a.button3 {
 @media screen and (min-width: 600px) and (max-width: 874px) {
   .main-advantages {
     margin-top: 60%;
+  }
+  .main-advantages__list {
+    line-height: 5vw;
+  }
+  .main-advantages__title {
+    font-size: $font-size-h2-tablet;
+  }
+  .main-advantages__title__decoration {
+    margin-top: 0%;
   }
 }
 @media screen and (max-width: 599px) {

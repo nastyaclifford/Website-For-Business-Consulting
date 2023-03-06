@@ -30,7 +30,6 @@
 }
 
 .main-industries__list h3 {
-  min-width: 0;
   overflow-wrap: break-word;
 }
 
@@ -55,6 +54,8 @@
     margin-left: 2vw;
   }
   .main-industries__list {
+    margin-left: 5%;
+    margin-right: 0;
     grid-auto-rows: 100%;
   }
   .main-industries__title__text {
@@ -72,7 +73,6 @@
   .main-industries__list {
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 16vw;
-    margin-right: 20vw;
   }
   .main-industries__title {
     margin-left: 7vw;
