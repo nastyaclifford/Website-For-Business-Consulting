@@ -12,6 +12,12 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+.mymission__text,
+.unic__text,
+.instruments__text {
+  line-height: 1.3em;
+}
+
 .mymission,
 .unic,
 .instruments {
@@ -56,14 +62,14 @@
     min-width: 28vw;
     min-height: 28vw;
   }
-  .mymission__text,
-  .unic__text,
-  .instruments__text {
-    line-height: 1em;
-  }
   .mission-title {
     width: 18vw;
     font-size: $font-size-h3-tablet;
+  }
+  .mymission__text,
+  .unic__text,
+  .instruments__text {
+    line-height: 1.1em;
   }
 }
 @media screen and (max-width: 759px) {
@@ -75,6 +81,7 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
+
   .mymission,
   .unic,
   .instruments {
