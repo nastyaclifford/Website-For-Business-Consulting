@@ -73,6 +73,7 @@
 .header__section-title {
   color: $text-color1;
   margin: 0;
+  font-size: $font-size-h1;
   @include heading-h1;
 }
 
@@ -88,6 +89,9 @@
   /*Логотип хэдера*/
   .header__logo {
     width: 40%;
+  }
+  .header__section-title{
+    font-size: $font-size-h1-tablet;
   }
 }
 
@@ -122,5 +126,8 @@
     flex-direction: column;
     height: 20rem;
     justify-content: center;
+  }
+  .header__menu-link{
+    font-size: $font-size-text-p-phone;
   }
 }

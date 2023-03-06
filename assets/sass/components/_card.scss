@@ -1,26 +1,3 @@
-/* CSS-стили Desktop */
-/*.card {
-  margin-top: auto;
-  border-radius: 0;
-  .card-body-m {
-    font-size: $font-size-2;
-    text-align: center;
-    padding: 120px;
-  }
-  .card-body-s {
-    min-width: 95%;
-    min-height: 250px;
-    padding: 20px;
-    @include text-p;
-    font-size: 1.3vw;
-  }
-
-  .card-body-l {
-    @include card-body_l;
-    font-size: $font-size-2;
-  }
-}*/
-/* CSS-стили Desktop */
 .card {
   color: #5b5858;
   margin-top: auto;
@@ -29,87 +6,27 @@
 .card-text {
   color: #5b5858;
 }
-​ .card-menu__item {
-  font-size: 1vw;
-}
-​ .card-text-w {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
-​ .card-text-s {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
-​ .card-text-m {
-  color: #5b5858;
-  font-family: Oswald;
-  font-size: $font-size-2;
-  font-weight: 400;
-}
-​ .card-text-l {
-  color: #5b5858;
-  font-family: Oswald;
-  font-size: $font-size-2;
-  font-weight: 400;
-}
-​ .card-body-m {
-  font-size: $font-size-2;
+.text-left {
   text-align: center;
-  padding: 160px;
 }
-.card-body-s {
-  min-width: 95%;
-  min-height: 250px;
-  padding: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
-​ .card-body-l {
-  min-width: 95%;
-  min-height: 250px;
-  padding: 120px;
-  text-align: center;
+.text-center {
+  justify-content: center;
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* CSS-стили Tablet */
-  .card-body-m {
-    padding: 80px;
-    font-size: 2vw;
-  }
-  ​ .card-body-l {
-    padding: 80px;
-    font-size: 2vw;
-  }
-  ​ .card-text-s {
-    font-size: 1.3vw;
-  }
-  ​ .card-menu__item {
-    font-size: 1.3vw;
-  }
-  ​ .card-text-w {
-    font-size: 1.3vw;
-  }
+
 }
+
 @media screen and (max-width: 599px) {
-  /* CSS-стили Smartphone*/
-  ​ .card-body-m {
-    padding: 80px;
+  .main-services {
+    padding-top: 40%;
+  }
+  .text-right{
     font-size: 3vw;
   }
-  ​ .card-body-l {
-    padding: 80px;
-    font-size: 3vw;
+  .services-phone {
+    display: flex;
   }
-  ​ .card-text-s {
-    font-size: 2vw;
-  }
-  ​ .card-menu__item {
-    font-size: 2vw;
-  }
-  ​ .card-text-w {
-    font-size: 2vw;
+  .text-left {
+    text-align: center;
   }
 }
