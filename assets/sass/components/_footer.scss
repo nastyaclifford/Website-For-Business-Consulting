@@ -34,27 +34,32 @@
   margin-left: 3vw;
   border-bottom: 1px solid $color2;
 }
-
+.footer-link {
+  color: $text-color1;
+  text-decoration: none;
+}
+.footer__section a:hover {
+  color: rgb(7, 170, 121);
+}
 
 @media (min-width: 600px) and (max-width: 1023px) {
   /* CSS-стили Tablet */
   .footer {
     grid-template-columns: 30% 70%;
   }
- .footer__logo {
+  .footer__logo {
     padding-top: 1.5rem;
     width: 45%;
     margin-left: 0;
+  }
+  .footer__section {
+    width: 20vw;
+  }
+  .footer__section::after {
+    width: 3vw;
+    margin-left: 3vw;
+  }
 }
-.footer__section {
-  width: 20vw;
-}
-.footer__section::after {
-  width: 3vw;
-  margin-left: 3vw;
-}
-}
-
 
 @media screen and (max-width: 599px) {
   /* CSS-стили Smartphone*/
@@ -80,10 +85,9 @@
     padding-bottom: 1rem;
     padding-left: 0.5rem;
     font-size: $font-size-text-p-phone;
- 
   }
   .footer__section::after {
     width: 4vw;
     margin-left: 6vw;
   }
-  }
+}

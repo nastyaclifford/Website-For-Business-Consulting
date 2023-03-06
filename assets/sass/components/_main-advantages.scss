@@ -54,9 +54,6 @@ a.button3 {
   .main-advantages__title__decoration {
     margin-top: 0%;
   }
-  .card-title {
-    font-size: $font-size-h3-tablet;
-  }
 }
 @media (min-width: 1022px) and (max-width: 1239px) {
   .main-advantages__title {
@@ -74,11 +71,8 @@ a.button3 {
   .main-advantages__title__decoration {
     margin-top: 0%;
   }
-  .card-title {
-    font-size: $font-size-h3-tablet;
-  }
 }
-@media (min-width: 875px) and (max-width: 1023px) {
+@media (min-width: 875px) and (max-width: 1021px) {
   .main-advantages__list {
     line-height: 5vw;
   }
@@ -90,9 +84,6 @@ a.button3 {
   }
   .main-advantages {
     margin-top: 65%;
-  }
-  .card-title {
-    font-size: $font-size-h3-tablet;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 874px) {

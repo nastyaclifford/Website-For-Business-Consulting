@@ -17,6 +17,11 @@
   font-size: $font-size-h2;
   @include heading-h2;
 }
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .main-services__title {
+    font-size: $font-size-h2;
+  }
+}
 @media (min-width: 600px) and (max-width: 1024px) {
   .main-services {
     width: 95%;
