@@ -37,6 +37,7 @@
   max-height: 5vw;
   margin-left: 3vw;
   text-align: center;
+  font-size: $font-size-text;
   @include text-p;
 }
 
@@ -44,6 +45,7 @@
   margin-left: 3vw;
   text-align: center;
   grid-column: 2/3;
+  font-size: $font-size-text;
   @include text-p;
 }
 
@@ -54,7 +56,7 @@
     margin-left: 2vw;
   }
   .main-industries__list {
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 0;
     grid-auto-rows: 100%;
   }
@@ -63,6 +65,12 @@
   }
   .main-industries__title__decoration {
     margin-top: 1vw;
+  }
+  .main-industries__item {
+    font-size: $font-size-textl;
+  }
+  .main-industries__item-middle {
+    font-size: $font-size-textl;
   }
 }
 @media only screen and (max-width: 599px) {
@@ -88,10 +96,10 @@
     font-size: $font-size-h2-phone;
   }
   .main-industries__item {
-    font-size: $font-size-text-p-phone;
+    font-size: $font-size-textxl;
   }
   .main-industries__item-middle {
-    font-size: $font-size-text-p-phone;
+    font-size: $font-size-textxl;
   }
 }
 
