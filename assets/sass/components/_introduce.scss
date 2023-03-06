@@ -32,13 +32,12 @@ h2 {
 .opening-text-more,
 .aboutme-text,
 .aboutme-text-more {
-  line-height: 25px;
   letter-spacing: 1.2599999904632568px;
   text-align: left;
 }
 .opening-text-more,
 .aboutme-text-more {
-  padding-top: 25px;
+  padding-top: 0;
 }
 .photo {
   position: relative;
@@ -98,7 +97,7 @@ h2 {
     top: 0;
     left: 0;
     width: 35px;
-  height: 2px;
+    height: 2px;
     background-color: $color2;
   }
   h2 {
@@ -149,7 +148,7 @@ h2 {
     top: 0;
     left: 0;
     width: 25px;
-  height: 2px;
+    height: 2px;
     background-color: $color2;
   }
   .introduction-mobile {
@@ -163,7 +162,7 @@ h2 {
     display: flex;
     flex-direction: row;
     min-height: auto;
-    margin-top: -13%;
+    margin-top: -17%;
   }
   .photo-mobile__owner {
     min-width: 60%;
@@ -180,5 +179,10 @@ h2 {
   }
   .aboutme-mobile {
     margin-top: 5%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .photo-mobile {
+    margin-top: -10%;
   }
 }

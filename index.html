@@ -42,16 +42,16 @@
 <!--Девочки, подписываем свои рабочие области, начало/конец-->
 
 <body>
-  <class="root">
+  <div class="root">
     <header class="header">
       <div class="header__inner">
         <div>
           <img class="header__logo" src="assets/img/consulting-low-resolution-logo-white.svg" alt="Logotype" />
         </div>
         <nav class="header__menu">
-          <a class="header__menu-link" href="#">ОБО МНЕ</a>
-          <a class="header__menu-link" href="#">УСЛУГИ</a>
-          <a class="header__menu-link" href="#">КОНТАКТЫ</a>
+          <a class="header__menu-link" href="#about-me">ОБО МНЕ</a>
+          <a class="header__menu-link" href="#services">УСЛУГИ</a>
+          <a class="header__menu-link" href="#contacts">КОНТАКТЫ</a>
         </nav>
       </div>
       <section class="header__section">
@@ -67,7 +67,7 @@
         <section>
           <div class="rectangle-introduction">
             <div class="introduction">
-                <h2>ВСТУПЛЕНИЕ</h2>
+                <h2 id="about-me">ВСТУПЛЕНИЕ</h2>
                 <p class="opening-text">Практика   последних   3-х   лет   показала,   что   подход   к   бизнесу  резко поменялся, но не все предприятия смогли к тому адаптироваться.</p>
                 <p class="opening-text-more">Опыт говорит о том, что
                 большинство   предприятий   имеют   все   возможности   для   развития   даже   в   условиях
@@ -194,7 +194,7 @@
       <!-- Конец Mission-block -->
       <!--MARINA FIX-->
       <section class="main-services">
-        <h2 class="main-services__title">ОПИСАНИЕ УСЛУГ</h2>
+        <h2 id="services" class="main-services__title">ОПИСАНИЕ УСЛУГ</h2>
         <img
                 src="assets/img/underline-stages.png"
                 alt="underline"
@@ -207,7 +207,7 @@
             <div class="card-group services-phone">
               <div class="col">
                 <div class="card text-center col-sm-6 col-md-6 col-lg-6 mb-2 border-0">
-                  <div class="card-body-m">
+                  <div>
                     <p class="card-text text-left">
                       Формирование стратегии/ плана развития предприятия
                     </p>
@@ -218,10 +218,10 @@
               <div class="col text-right">
                 <div class="card col-sm-6 col-md-6 col-lg-6 border-0" style="background-color: #0b3529;">
                   <div class="card-body text-white">
-                    <p class="card-text-s ">
+                    <p>
                       1. Диагностика внутренних процессов предприятия.
                     </p>
-                    <p class="card-text-s">2. Анализ внешней среды:</p>
+                    <p>2. Анализ внешней среды:</p>
                     <ul class="card-menu">
                       <li class="card-menu__item">
                         Анализ продаж по каналам сбыта;
@@ -238,7 +238,7 @@
                         Описание ключевых бизнес процессов.
                       </li>
                     </ul>
-                    <p class="card-text-s">3. Анализ внутренней среды:</p>
+                    <p>3. Анализ внутренней среды:</p>
                     <ul class="card-menu">
                       <li class="card-menu__item">
                         Анализ поставщиков/покупателей;
@@ -256,11 +256,11 @@
                         Анализ потенциальных возможностей и угроз.
                       </li>
                     </ul>
-                    <p class="card-text-s">4. SWOT-анализ и пр.</p>
-                    <p class="card-text-s">
+                    <p>4. SWOT-анализ и пр.</p>
+                    <p>
                       5. Формирование дорожной карты с планом мероприятий;
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       6. Формирование финансовой модели в рамках выбранных
                       мероприятий на рассматриваемый горизонт планирования.
                     </p>
@@ -272,7 +272,7 @@
             <div class="card-group services-phone">
               <div class="col">
                 <div class="card text-center col-sm-6 col-md-6 col-lg-6 border-0" style="background-color: #dbefdc;">
-                  <div class="card-body-m">
+                  <div>
                     <p class="card-text text-left">
                       Диагностика бизнес-процессов предприятия
                     </p>
@@ -283,13 +283,13 @@
               <div class="col text-right">
                 <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
                   <div class="card-body">
-                    <p class="card-text-w">
+                    <p>
                       Определение точки «А» по каждому процессу.
                     </p>
-                    <p class="card-text-w">
+                    <p>
                       Формирование гипотез для достижения точки «Б».
                     </p>
-                    <p class="card-text-w">Приоритизация целей</p>
+                    <p>Приоритизация целей</p>
                   </div>
                 </div>
               </div>
@@ -298,7 +298,7 @@
             <div class="card-group services-phone">
               <div class="col">
                 <div class="card text-center col-sm-6 col-md-6 col-lg-6 border-0">
-                  <div class="card-body-m">
+                  <div>
                     <p class="card-text text-left">
                       Формирование бизнес-плана и финансовой модели в
                       соответствие с целями предприятия
@@ -310,19 +310,19 @@
               <div class="col text-right">
                 <div class="card col-sm-6 col-md-6 col-lg-6 border-0" style="background-color: #0b3529;">
                   <div class="card-body text-white">
-                    <p class="card-text-s">
+                    <p>
                       Определение основных критериев для оценки предприятия.
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       Формирование гипотез достижения целей.
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       Описание отрасли, определение места компании в отрасли.
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       Составление маркетингового плана развития.
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       Расчет показателей на выбранный горизонт планирования.
                     </p>
                   </div>
@@ -333,7 +333,7 @@
             <div class="card-group services-phone">
               <div class="col">
                 <div class="card text-center col-sm-6 col-md-6 col-lg-6 border-0" style="background-color: #dbefdc;">
-                  <div class="card-body-m">
+                  <div>
                     <p class="card-text text-left">
                       Выстраивание проектного управления на предприятии
                     </p>
@@ -344,12 +344,12 @@
               <div class="col text-right">
                 <div class="card col-sm-6 col-md-6 col-lg-6 border-0">
                   <div class="card-body">
-                    <p class="card-text-w">Создание проектной группы.</p>
-                    <p class="card-text-w">Определение целей работы группы.</p>
-                    <p class="card-text-w">
+                    <p>Создание проектной группы.</p>
+                    <p>Определение целей работы группы.</p>
+                    <p>
                       Передача и внедрение инструментов проектного управления.
                     </p>
-                    <p class="card-text-w">Формирование KPI группы.</p>
+                    <p>Формирование KPI группы.</p>
                   </div>
                 </div>
               </div>
@@ -358,7 +358,7 @@
             <div class="card-group services-phone">
               <div class="col">
                 <div class="card text-center col-sm-6 col-md-6 col-lg-6 border-0">
-                  <div class="card-body-m">
+                  <div>
                     <p class="card-text text-left">
                       Описание основных бизнес процессов
                     </p>
@@ -369,14 +369,14 @@
               <div class="col text-right">
                 <div class="card col-sm-6 col-md-6 col-lg-6 border-0" style="background-color: #0b3529;">
                   <div class="card-body text-white">
-                    <p class="card-text-s">
+                    <p>
                       Диагностика внутренних процессов предприятия.
                     </p>
-                    <p class="card-text-s">Описание интересующего процесса.</p>
-                    <p class="card-text-s">
+                    <p>Описание интересующего процесса.</p>
+                    <p>
                       Формирование перечня сильных и слабых сторон процесса.
                     </p>
-                    <p class="card-text-s">
+                    <p>
                       Подбор инструментов для усиления слабых мест.
                     </p>
                   </div>
@@ -634,7 +634,7 @@
         <!-- Конец Advantages Катя -->
       </main>
     <!-- Начало Footer Ксения -->
-    <footer class="footer">
+    <footer id="contacts" class="footer">
       <img
         src="assets/img/consulting-low-resolution-logo-white.svg"
         alt="footerlogo"

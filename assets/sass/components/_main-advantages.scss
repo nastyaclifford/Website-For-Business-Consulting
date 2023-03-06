@@ -3,7 +3,7 @@
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 35%;
+  margin-top: 40%;
   margin-bottom: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -27,16 +27,16 @@
   line-height: 3vw;
   margin: 1vw;
 }
-a.button3{
-  display:inline-block;
-  padding:0.3em 1.2em;
-  margin:2em 0.3em 0.3em 0;
-  border-radius:2em;
+a.button3 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 2em 0.3em 0.3em 0;
+  border-radius: 2em;
   box-sizing: border-box;
-  text-decoration:none;
-  color:#FFFFFF;
+  text-decoration: none;
+  color: #ffffff;
   background-color: $text-color-stages;
-  text-align:center;
+  text-align: center;
   transition: all 0.2s;
 }
 
@@ -44,24 +44,23 @@ a.button3{
   .main-advantages__list {
     line-height: 5vw;
   }
-  .main-advantages__title{
+  .main-advantages__title {
     font-size: $font-size-h2-tablet;
   }
-  }
-
+}
 
 @media screen and (max-width: 599px) {
   .main-advantages__list {
     line-height: 5vw;
     font-size: 3vw;
   }
-  .main-advantages__title{
+  .main-advantages__title {
     font-size: $font-size-h2-phone;
   }
 }
-@media all and (max-width:30em){
-  a.button3{
-    display:block;
-    margin:0.2em auto;
+@media all and (max-width: 30em) {
+  a.button3 {
+    display: block;
+    margin: 0.2em auto;
   }
 }

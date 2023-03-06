@@ -38,6 +38,7 @@
 
 /*Пункты меню хедера*/
 .header__menu-link {
+  margin-right: 2vw;
   color: $text-color1;
   text-decoration: none;
   position: relative;
@@ -81,7 +82,6 @@
 .header__section-text {
   color: $text-color1;
   margin-bottom: 0;
-  font-size: 1.3vw;
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -90,8 +90,11 @@
   .header__logo {
     width: 40%;
   }
-  .header__section-title{
+  .header__section-title {
     font-size: $font-size-h1-tablet;
+  }
+  .header__menu {
+    width: 45%;
   }
 }
 
@@ -115,6 +118,7 @@
 
   /*Меню хэдера*/
   .header__menu {
+    width: 45%;
     margin-top: 0;
     margin-left: 2em;
   }
@@ -127,7 +131,10 @@
     height: 20rem;
     justify-content: center;
   }
-  .header__menu-link{
+  .header__menu-link {
     font-size: $font-size-text-p-phone;
+  }
+  .header__section-title {
+    font-size: $font-size-h1-phone;
   }
 }

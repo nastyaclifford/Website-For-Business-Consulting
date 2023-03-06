@@ -1,8 +1,8 @@
 /* CSS-стили Desktop */
 .main-services {
-  width: 90%;
+  width: 85%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 15%;
   padding-bottom: 2%;
   margin-top: 5%;
 }
@@ -14,7 +14,7 @@
   color: $text-color2;
   margin: 0;
   padding: 0;
-  font-size: $font-size-h2;
+  font-size: $font-size-card;
   @include heading-h2;
 }
 ​ .main-services__title__decoration {
@@ -22,7 +22,7 @@
   height: 0.1vw;
 }
 
-@media (min-width: 600px) and (max-width: 1024px){
+@media (min-width: 600px) and (max-width: 1024px) {
   .main-services__title {
     font-size: $font-size-h2-tablet;
   }

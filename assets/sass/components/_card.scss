@@ -1,10 +1,6 @@
 .card {
-  color: #5b5858;
   margin-top: auto;
   border-radius: 0;
-}
-.card-text {
-  color: #5b5858;
 }
 .text-left {
   text-align: center;
@@ -13,14 +9,13 @@
   justify-content: center;
 }
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-
 }
 
 @media screen and (max-width: 599px) {
   .main-services {
     padding-top: 40%;
   }
-  .text-right{
+  .text-right {
     font-size: 3vw;
   }
   .services-phone {
