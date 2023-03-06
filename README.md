@@ -9,7 +9,7 @@
 Проектная команда
 - Оксана Тайсумова (https://github.com/Oksana2211)
 - Анастасия Клиффорд (https://github.com/nastyaclifford)
-- Анастасия Исгандарова (https://github.com/ianastasiya)
+- Анастасия Искендерова (https://github.com/ianastasiya)
 - Ксения Кочинева (https://github.com/Kseniva)
 - Mарина Овчаренко (https://github.com/Mmaryna68)
 - Аида Рахимова (https://github.com/Aida1005)
