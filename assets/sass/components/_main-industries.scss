@@ -7,21 +7,22 @@
 }
 
 .main-industries__title__text {
+  min-width: 35vw;
   color: $text-color2;
   font-size: $font-size-h2;
   @include heading-h2;
 }
 
 .main-industries__title__decoration {
-  margin-top: 0.3vw;
+  margin-top: 0.2vw;
   width: 2.3vw;
   height: 0.1vw;
 }
 
 .main-industries__list {
   display: grid;
-  margin-left: 47vw;
-  margin-right: 47vw;
+  margin-left: 20%;
+  margin-right: 20%;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 100%;
   margin: auto;
@@ -34,13 +35,14 @@
 }
 
 .main-industries__item {
-  margin-left: 7vw;
+  max-height: 5vw;
+  margin-left: 3vw;
   text-align: center;
   @include text-p;
 }
 
 .main-industries__item-middle {
-  margin-left: 7vw;
+  margin-left: 3vw;
   text-align: center;
   grid-column: 2/3;
   @include text-p;
@@ -59,7 +61,7 @@
     font-size: $font-size-h2-tablet;
   }
   .main-industries__title__decoration {
-    margin-top: 2vw;
+    margin-top: 1vw;
   }
 }
 @media only screen and (max-width: 599px) {

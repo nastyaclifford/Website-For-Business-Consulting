@@ -19,9 +19,8 @@
 
 .main-advantages__title__decoration {
   width: 2.3vw;
-  height: 0.1vw;
+  height: 0.2vw;
 }
-
 .main-advantages__list {
   /*letter-spacing: 1.26px;*/
   line-height: 3vw;
@@ -39,16 +38,35 @@ a.button3 {
   text-align: center;
   transition: all 0.2s;
 }
-
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 1240px) and (max-width: 1500px) {
+  .main-advantages {
+    margin-top: 50%;
+  }
+}
+@media (min-width: 1022px) and (max-width: 1239px) {
+  .main-advantages {
+    margin-top: 55%;
+  }
+}
+@media (min-width: 875px) and (max-width: 1023px) {
   .main-advantages__list {
     line-height: 5vw;
   }
   .main-advantages__title {
     font-size: $font-size-h2-tablet;
   }
+  .main-advantages__title__decoration {
+    margin-top: 0%;
+  }
+  .main-advantages {
+    margin-top: 65%;
+  }
 }
-
+@media screen and (min-width: 600px) and (max-width: 874px) {
+  .main-advantages {
+    margin-top: 60%;
+  }
+}
 @media screen and (max-width: 599px) {
   .main-advantages__list {
     line-height: 5vw;

@@ -48,7 +48,7 @@
 /*Подчеркивание пунктов меню хедера смещенное*/
 .header__menu-link::after {
   content: "";
-  background-color: $color2;
+  background-color: $color3;
   height: 2px;
   width: 25px;
   bottom: -4px;

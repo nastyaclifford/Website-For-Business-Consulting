@@ -14,13 +14,9 @@
   color: $text-color2;
   margin: 0;
   padding: 0;
+  font-size: $font-size-h2;
   @include heading-h2;
 }
-​ .main-services__title__decoration {
-  width: 2.3vw;
-  height: 0.1vw;
-}
-
 @media (min-width: 600px) and (max-width: 1024px) {
   .main-services {
     width: 95%;
