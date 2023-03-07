@@ -543,7 +543,7 @@ font-family: 'Oswald', sans-serif;*/
 }
 
 .footer__section {
-  width: 60%;
+  width: 80%;
   word-wrap: break-word;
   margin-right: 1.2rem;
   font-size: 1.2vw;
@@ -581,7 +581,7 @@ font-family: 'Oswald', sans-serif;*/
     margin-left: 0;
   }
   .footer__section {
-    width: 40vw;
+    width: 50vw;
   }
   .footer__section::after {
     width: 3.5vw;
@@ -838,11 +838,8 @@ a.button3 {
   .main-advantages__title {
     font-size: 4vw;
   }
-}
-@media all and (max-width: 30em) {
   a.button3 {
-    display: block;
-    margin: 0.2em auto;
+    max-width: 40vw;
   }
 }
 .main-stages-title-decoration {

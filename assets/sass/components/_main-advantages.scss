@@ -109,10 +109,7 @@ a.button3 {
   .main-advantages__title {
     font-size: $font-size-h2-phone;
   }
-}
-@media all and (max-width: 30em) {
   a.button3 {
-    display: block;
-    margin: 0.2em auto;
+    max-width: 40vw;
   }
 }
