@@ -44,6 +44,10 @@
   box-shadow: $box-shadow;
   font-weight: 700;
 }
+.bottom_green {
+  border-bottom: 3px solid #70bf73;
+}
+
 @media (min-width: 600px) and (max-width: 1023px) {
   .card-title {
     font-size: $font-size-h3-tablet;
