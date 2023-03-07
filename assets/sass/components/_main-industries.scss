@@ -18,12 +18,6 @@
   margin-bottom: 2%;
   background-color: $color3;
 }
-.main-industries__title__decoration {
-  margin-top: 0.2vw;
-  width: 2.3vw;
-  height: 0.1vw;
-}
-
 .main-industries__list {
   display: grid;
   margin-left: 20%;
@@ -68,9 +62,6 @@
   .main-industries__title {
     font-size: $font-size-h2-tablet;
   }
-  .main-industries__title__decoration {
-    margin-top: 1vw;
-  }
   .main-industries__item {
     font-size: $font-size-textl;
   }
@@ -88,26 +79,12 @@
     grid-auto-rows: 16vw;
   }
   .main-industries__title {
-    margin-left: 7vw;
-    justify-items: center;
-    justify-content: start;
-    margin-bottom: 7vw;
     font-size: $font-size-h2-phone;
-  }
-  .main-industries__title__decoration {
-    margin-right: 19vw;
-    margin-top: 2vw;
   }
   .main-industries__item {
     font-size: $font-size-textxl;
   }
   .main-industries__item-middle {
     font-size: $font-size-textxl;
-  }
-}
-
-@media only screen and (max-width: 281px) {
-  .main-industries__title__decoration {
-    margin-top: -2vw;
   }
 }
