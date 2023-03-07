@@ -16,6 +16,15 @@
   font-size: $font-size-h2;
   @include heading-h2;
 }
+.main-advantages__title::after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 2px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  background-color: $color3;
+}
 
 .main-advantages__title__decoration {
   width: 2.3vw;
@@ -44,7 +53,7 @@ a.button3 {
   }
 }
 
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 599px) {
   .main-advantages__title {
     font-size: $font-size-h2-phone;
   }

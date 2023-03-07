@@ -4,15 +4,20 @@
   display: grid;
   margin-bottom: 6vw;
   max-width: 20vw;
-}
-
-.main-industries__title__text {
   min-width: 35vw;
   color: $text-color2;
   font-size: $font-size-h2;
   @include heading-h2;
 }
-
+.main-industries__title::after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 2px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  background-color: $color3;
+}
 .main-industries__title__decoration {
   margin-top: 0.2vw;
   width: 2.3vw;
@@ -60,7 +65,7 @@
     margin-right: 0;
     grid-auto-rows: 100%;
   }
-  .main-industries__title__text {
+  .main-industries__title {
     font-size: $font-size-h2-tablet;
   }
   .main-industries__title__decoration {
@@ -87,13 +92,11 @@
     justify-items: center;
     justify-content: start;
     margin-bottom: 7vw;
+    font-size: $font-size-h2-phone;
   }
   .main-industries__title__decoration {
     margin-right: 19vw;
     margin-top: 2vw;
-  }
-  .main-industries__title__text {
-    font-size: $font-size-h2-phone;
   }
   .main-industries__item {
     font-size: $font-size-textxl;
