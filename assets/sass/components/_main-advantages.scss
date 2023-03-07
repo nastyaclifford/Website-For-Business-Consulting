@@ -38,11 +38,21 @@ a.button3 {
   text-align: center;
   transition: all 0.2s;
 }
+@media (min-width: 600px) and (max-width: 1024px) {
+  .main-advantages__title {
+    font-size: $font-size-h2-tablet;
+  }
+}
+
+@media only screen and (max-width: 599px){
+  .main-advantages__title {
+    font-size: $font-size-h2-phone;
+  }
+}
 @media (min-width: 1240px) and (max-width: 1500px) {
   .main-advantages__title {
     color: $text-color2;
     margin-bottom: 0;
-    font-size: $font-size-h2;
     @include heading-h2;
   }
   .main-advantages {
@@ -59,7 +69,6 @@ a.button3 {
   .main-advantages__title {
     color: $text-color2;
     margin-bottom: 0;
-    font-size: $font-size-h2;
     @include heading-h2;
   }
   .main-advantages {
