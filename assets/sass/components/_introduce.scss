@@ -61,6 +61,7 @@ h2 {
   width: 100%;
   object-fit: cover;
 }
+
 @media (min-width: 1200px) {
   .rectangle-introduction-tablet,
   .rectangle-introduction-mobile {
@@ -100,7 +101,7 @@ h2 {
   }
   h2 {
     padding-top: 30px;
-    font-size: $font-size-h2-tablet;
+    @include heading-h2;
   }
   h2,
   .photo-tablet {
