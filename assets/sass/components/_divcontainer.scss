@@ -2,7 +2,7 @@
   width: 4vw;
   height: 0.1vw;
 }
-.main-stages_title{
+.main-stages__title {
   font-size: $font-size-h2;
   @include heading-h2;
 }
@@ -48,14 +48,28 @@
   border-bottom: 3px solid #70bf73;
 }
 
+.animation:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: $box-shadow-card;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .main-stages__title {
+    font-size: $font-size-h2;
+    @include heading-h2;
+  }
+}
 @media (min-width: 600px) and (max-width: 1023px) {
   .card-title {
-    font-size: $font-size-h3-tablet;
+    font-size: $font-size-h2-tablet;
   }
   .card-text {
     font-size: 2.2vw;
   }
-  .main-stages_title {
+  .main-stages__title {
     font-size: $font-size-h2-tablet;
   }
 }
@@ -69,12 +83,4 @@
   .main-stages_title {
     font-size: $font-size-h2-phone;
   }
-}
-
-.animation:hover{
-    transform: scale(1.1);
-    transition: all linear 200ms;
-    z-index: 1;
-    box-shadow: $box-shadow-card;
-    cursor: pointer;
 }
