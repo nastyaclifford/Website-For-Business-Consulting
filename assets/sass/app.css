@@ -448,7 +448,7 @@ font-family: 'Oswald', sans-serif;*/
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 20rem;
+  min-height: 20rem;
   justify-content: center;
 }
 
