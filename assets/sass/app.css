@@ -503,14 +503,6 @@ font-family: 'Oswald', sans-serif;*/
     margin-top: 0;
     margin-left: 2em;
   }
-  /*Оболочка секции со слоганом*/
-  .header__section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    justify-content: center;
-  }
   .header__menu-link {
     font-size: 3vw;
   }
