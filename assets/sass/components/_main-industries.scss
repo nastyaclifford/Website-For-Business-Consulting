@@ -53,7 +53,7 @@
 /*Media Quary*/
 
 @media (min-width: 600px) and (max-width: 1023px) {
-  .main-industries{
+  .main-industries {
     margin-bottom: 500px;
   }
   .main-industries__title {
@@ -69,7 +69,7 @@
 @media only screen and (max-width: 599px) {
   .main-industries {
     margin-bottom: 280px;
-    }
+  }
   .main-industries__list {
     grid-template-columns: 1fr 1fr;
   }
@@ -87,7 +87,7 @@
 @media (min-width: 460px) and (max-width: 599px) {
   .main-industries {
     margin-bottom: 400px;
-    }
+  }
   .main-industries__list {
     grid-template-columns: 1fr 1fr;
   }
@@ -105,7 +105,7 @@
 @media (min-width: 540px) and (max-width: 541px) {
   .main-industries {
     margin-bottom: 380px;
-    }
+  }
   .main-industries__list {
     grid-template-columns: 1fr 1fr;
   }
@@ -123,7 +123,7 @@
 @media (min-width: 240px) and (max-width: 330px) {
   .main-industries {
     margin-bottom: 56%;
-    }
+  }
   .main-industries__list {
     grid-template-columns: 1fr 1fr;
   }
