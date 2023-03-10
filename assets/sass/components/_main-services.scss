@@ -51,4 +51,8 @@
     margin-top: 2%;
     font-size: $font-size-h2-phone;
   }
+  .main-services__title::after {
+    content: " ";
+    width: 25px;
+  }
 }

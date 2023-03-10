@@ -109,6 +109,10 @@ a.button3 {
   .main-advantages__title {
     font-size: $font-size-h2-phone;
   }
+  .main-advantages__title::after {
+    content: " ";
+    width: 25px;
+  }
   a.button3 {
     max-width: 40vw;
   }

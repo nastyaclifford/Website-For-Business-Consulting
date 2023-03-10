@@ -711,6 +711,10 @@ font-family: 'Oswald', sans-serif;*/
   .main-industries__title {
     font-size: 4vw;
   }
+  .main-industries__title::after {
+    content: " ";
+    width: 25px;
+  }
   .main-industries__item {
     font-size: 3vw;
   }
@@ -838,6 +842,10 @@ a.button3 {
   .main-advantages__title {
     font-size: 4vw;
   }
+  .main-advantages__title::after {
+    content: " ";
+    width: 25px;
+  }
   a.button3 {
     max-width: 40vw;
   }
@@ -951,6 +959,10 @@ a.button3 {
   }
   .main-stages-title {
     font-size: 4vw;
+  }
+  .main-stages-title::after {
+    content: " ";
+    width: 25px;
   }
 }
 .rectangle-introduction {
@@ -1213,6 +1225,10 @@ h2 {
   .main-services__title {
     margin-top: 2%;
     font-size: 4vw;
+  }
+  .main-services__title::after {
+    content: " ";
+    width: 25px;
   }
 }
 .card {

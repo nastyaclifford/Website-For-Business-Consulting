@@ -81,6 +81,10 @@
   .main-industries__title {
     font-size: $font-size-h2-phone;
   }
+  .main-industries__title::after {
+    content: " ";
+    width: 25px;
+  }
   .main-industries__item {
     font-size: $font-size-textxl;
   }
