@@ -66,7 +66,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  height: 20rem;
+  min-height: 20rem;
   justify-content: center;
 }
 
@@ -123,14 +123,6 @@
     margin-left: 2em;
   }
 
-  /*Оболочка секции со слоганом*/
-  .header__section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    justify-content: center;
-  }
   .header__menu-link {
     font-size: $font-size-text-p-phone;
   }
