@@ -1,62 +1,64 @@
-/* CSS-стили Desktop */
-.card {
-  color: #5b5858;
-  margin-top: auto;
-  border-radius: 0;
-}
-.card-text {
-  color: #5b5858;
-}
+@media (min-width: 1024px) {
+  /* CSS-стили Desktop */
+  .card {
+    color: #5b5858;
+    margin-top: auto;
+    border-radius: 0;
+  }
+  .card-text {
+    color: #5b5858;
+  }
 
-.card-menu__item {
-  font-size: 1vw;
-}
+  .card-menu__item {
+    font-size: 1vw;
+  }
 
-.card-text-w {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
+  .card-text-w {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+  }
 
-.card-text-s {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
+  .card-text-s {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+  }
 
-.card-text-m {
-  color: #5b5858;
-  font-family: Oswald;
-  font-size: $font-size-2;
-  font-weight: 400;
-}
+  .card-text-m {
+    color: #5b5858;
+    font-family: Oswald;
+    font-size: $font-size-2;
+    font-weight: 400;
+  }
 
-.card-text-l {
-  color: #5b5858;
-  font-family: Oswald;
-  font-size: $font-size-2;
-  font-weight: 400;
-}
+  .card-text-l {
+    color: #5b5858;
+    font-family: Oswald;
+    font-size: $font-size-2;
+    font-weight: 400;
+  }
 
-.card-body-m {
-  font-size: $font-size-2;
-  text-align: center;
-  padding: 160px;
-}
-.card-body-s {
-  min-width: 95%;
-  min-height: 250px;
-  padding: 20px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1vw;
-}
+  .card-body-m {
+    font-size: $font-size-2;
+    text-align: center;
+    padding: 120px;
+  }
+  .card-body-s {
+    min-width: 95%;
+    min-height: 250px;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+  }
 
-.card-body-l {
-  min-width: 95%;
-  min-height: 250px;
-  padding: 120px;
-  text-align: center;
+  .card-body-l {
+    min-width: 95%;
+    min-height: 250px;
+    padding: 120px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
