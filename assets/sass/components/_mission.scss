@@ -1,7 +1,6 @@
 .mission-wrapper {
   background-color: #fbfbfb;
   display: grid;
-  min-height: 451px;
   justify-items: center;
   width: 100%;
 }
@@ -9,18 +8,26 @@
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  max-height: 450px;
   max-width: 1800px;
-  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 12%;
 }
+.mymission__text,
+.unic__text,
+.instruments__text {
+  line-height: 1.3em;
+}
+
 .mymission,
 .unic,
 .instruments {
   // border: 1px dashed red;
   background-color: #ffffff;
-  height: 300px;
-  margin: 50px;
-  padding: 20px;
+  min-width: 22vw;
+  min-height: 20vw;
+  margin: 10%;
+  padding: 5%;
 }
 .mymission__headline-block,
 .unic__headline-block,
@@ -30,14 +37,12 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
-.mymission__text,
-.unic__text,
-.instruments__text {
-  color: $text-color2;
-}
+
 .mission-title {
   color: $text-color2;
   text-transform: uppercase;
+  font-size: $font-size-h3;
+  width: 10vw;
   @include heading-h3;
 }
 .icon-mission {
@@ -49,36 +54,41 @@
   object-fit: cover;
 }
 // медиазапросы
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 760px) and (max-width: 1023px) {
   .mymission,
   .unic,
   .instruments {
-    height: 230px;
-    margin: 5px;
+    margin: 5%;
+    padding: 2%;
+    min-width: 28vw;
+    min-height: 28vw;
+  }
+  .mission-title {
+    width: 18vw;
+    font-size: $font-size-h3-tablet;
   }
   .mymission__text,
   .unic__text,
   .instruments__text {
-    color: $text-color2;
-    line-height: 1.1rem;
-  }
-  .mission-title {
-    font-weight: 100;
+    line-height: 1.1em;
   }
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 759px) {
   .mission-block {
     display: grid;
     grid-template-columns: 1fr;
-    min-height: 60vh;
+    min-height: 40vw;
     width: 100%;
-    padding: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
+
   .mymission,
   .unic,
   .instruments {
-    height: 160px;
-    margin: 10px;
+    margin: 2%;
+    min-width: 30vw;
+    min-height: 30vw;
   }
   .mymission__headline-block,
   .unic__headline-block,
@@ -87,12 +97,26 @@
     // border: 1px dashed rgb(8, 116, 49);
     grid-template-columns: 2fr 0.5fr;
   }
-  .mymission__text,
-  .unic__text,
-  .instruments__text {
-    color: $text-color2;
-  }
   .mission-title {
     font-weight: 100;
+    font-size: $font-size-h3-phone;
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mission-block {
+    display: grid;
+    grid-template-columns: 1fr;
+    min-height: 40vw;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .mymission,
+  .unic,
+  .instruments {
+    margin: 5%;
+    min-width: 30vw;
+    min-height: 25vw;
   }
 }

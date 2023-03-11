@@ -1,6 +1,19 @@
-.main-stages__title-decoration {
+.main-stages-title-decoration {
   width: 4vw;
   height: 0.1vw;
+}
+.main-stages-title {
+  font-size: $font-size-h2;
+  @include heading-h2;
+}
+.main-stages-title::after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 2px;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  background-color: $color3;
 }
 .card {
   border-radius: 8px;
@@ -10,10 +23,12 @@
   margin-top: 30px;
 }
 .card-title {
+  font-size: $font-size-h3;
   @include text-step;
 }
 
 .card-text {
+  font-size: 1.4vw;
   @include text-p;
 }
 
@@ -37,4 +52,44 @@
   background: #ffffff;
   box-shadow: $box-shadow;
   font-weight: 700;
+}
+.bottom-green {
+  border-bottom: 3px solid #70bf73;
+}
+
+.animation:hover {
+  transform: scale(1.1);
+  transition: all linear 200ms;
+  z-index: 1;
+  box-shadow: $box-shadow-card;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .main-stages-title {
+    font-size: $font-size-h2;
+    @include heading-h2;
+  }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .card-title {
+    font-size: $font-size-h2-tablet;
+  }
+  .card-text {
+    font-size: 2.2vw;
+  }
+  .main-stages-title {
+    font-size: $font-size-h2-tablet;
+  }
+}
+@media screen and (max-width: 599px) {
+  .card-text {
+    font-size: $font-size-h3-phone;
+  }
+  .card-title {
+    font-size: $font-size-h3-phone;
+  }
+  .main-stages-title {
+    font-size: $font-size-h2-phone;
+  }
 }

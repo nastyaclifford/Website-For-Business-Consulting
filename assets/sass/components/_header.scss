@@ -2,7 +2,7 @@
 
 /*Оболочка хэдера*/
 .header {
-  background: $color2 url("/assets/img/back_picture.png");
+  background: $color2 url("../img/back_picture.png");
   max-width: 100%;
   min-height: 35%;
   background-repeat: no-repeat;
@@ -10,114 +10,123 @@
   background-position: center center;
   background-attachment: fixed;
   font-style: normal;
+}
 
+/*Оболочка меню хедера*/
+.header__inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+/*Логотип хэдера*/
+.header__logo {
+  margin-top: 2%;
+  width: 45%;
+}
+
+/*Меню хэдера*/
+.header__menu {
+  margin-top: 1em;
+  width: 35%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Пункты меню хедера*/
+.header__menu-link {
+  margin-right: 2vw;
+  color: $text-color1;
+  text-decoration: none;
+  position: relative;
+  @include text-p;
+}
+
+/*Подчеркивание пунктов меню хедера смещенное*/
+.header__menu-link::after {
+  content: "";
+  background-color: $color3;
+  height: 2px;
+  width: 25px;
+  bottom: -4px;
+  right: -6px;
+  position: absolute;
+}
+
+/*Изменение цвета ссылок при наведении курсора*/
+.header__menu a:hover {
+  color: rgb(7, 170, 121);
+}
+
+/*Оболочка секции со слоганом*/
+.header__section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 20rem;
+  justify-content: center;
+}
+
+/*Центральная надпись секции со слоганом*/
+.header__section-title {
+  color: $text-color1;
+  margin: 0;
+  font-size: $font-size-h1;
+  @include heading-h1;
+}
+
+/*Текст секции со слоганом*/
+.header__section-text {
+  color: $text-color1;
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  /* CSS-стили Tablet*/
+  /*Логотип хэдера*/
+  .header__logo {
+    width: 40%;
+  }
+  .header__section-title {
+    font-size: $font-size-h1-tablet;
+  }
+  .header__menu {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* CSS-стили Smartphone*/
+  .header {
+    max-height: 30%;
+  }
   /*Оболочка меню хедера*/
   .header__inner {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-items: center;
-    justify-content: space-between;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-content: start;
+    justify-items: start;
   }
 
   /*Логотип хэдера*/
   .header__logo {
-    margin-top: 2%;
-    width: 45%;
+    width: 28%;
   }
 
   /*Меню хэдера*/
   .header__menu {
-    margin-top: 1em;
-    width: 35%;
-    min-height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 45%;
+    margin-top: 0;
+    margin-left: 2em;
   }
 
-  /*Пункты меню хедера*/
   .header__menu-link {
-    color: $text-color1;
-    text-decoration: none;
-    position: relative;
-    @include text-p;
+    font-size: $font-size-text-p-phone;
   }
-
-  /*Подчеркивание пунктов меню хедера смещенное*/
-  .header__menu-link::after {
-    content: "";
-    background-color: $color2;
-    height: 2px;
-    width: 25px;
-    bottom: -4px;
-    right: -6px;
-    position: absolute;
-  }
-
-  /*Изменение цвета ссылок при наведении курсора*/
-  .header__menu a:hover {
-    color: rgb(7, 170, 121);
-  }
-
-  /*Оболочка секции со слоганом*/
-  .header__section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    height: 20rem;
-    justify-content: center;
-  }
-
-  /*Центральная надпись секции со слоганом*/
   .header__section-title {
-    color: $text-color1;
-    margin: 0;
-    @include heading-h1;
-  }
-
-  /*Текст секции со слоганом*/
-  .header__section-text {
-    color: $text-color1;
-    margin-bottom: 0;
-    font-size: 1.3vw;
-  }
-
-  @media (min-width: 600px) and (max-width: 1023px) {
-    /* CSS-стили Tablet*/
-    /*Логотип хэдера*/
-    .header__logo {
-      width: 40%;
-    }
-  }
-
-  @media screen and (max-width: 599px) {
-    /* CSS-стили Smartphone*/
-    /*Оболочка меню хедера*/
-    .header__inner {
-      grid-template-columns: 1fr;
-      grid-template-rows: 2fr 1fr;
-      justify-content: start;
-      justify-items: start;
-    }
-
-    /*Логотип хэдера*/
-    .header__logo {
-      width: 28%;
-    }
-
-    /*Меню хэдера*/
-    .header__menu {
-      margin-top: 0;
-      margin-left: 2em;
-    }
-
-    /*Оболочка секции со слоганом*/
-    .header__section {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      height: 20rem;
-      justify-content: center;
-    }
+    font-size: $font-size-h1-phone;
   }
 }

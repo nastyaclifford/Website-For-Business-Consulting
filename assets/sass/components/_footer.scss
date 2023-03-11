@@ -4,65 +4,93 @@
   min-height: 8rem;
   display: grid;
   grid-template-columns: 50% 50%;
+  max-width: 100%;
+}
+.footer__logo {
+  width: 18%;
+  padding-top: 1rem;
+  margin-left: 7rem;
 }
 .footer__menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-right: 6rem;
+  padding-right: 5rem;
   padding-top: 1.5rem;
 }
-.footer__item {
-  display: flex;
-  flex-direction: column;
-}
 .footer__section {
-  width: 10.5rem;
-  height: 1.3rem;
+  width: 80%;
+  word-wrap: break-word;
+  margin-right: 1.2rem;
+  font-size: 1.2vw;
   color: $text-color1;
   @include text-p;
 }
-.footer__image_underline {
-  padding-top: 0.3rem;
-  padding-left: 1rem;
-  align-self: center;
+.footer__section::after {
+  content: "";
+  display: block;
+  width: 2vw;
+  margin-left: 3vw;
+  border-bottom: 1px solid $color3;
 }
+.footer-link {
+  color: $text-color1;
+  text-decoration: none;
+}
+.footer__section a:hover {
+  color: rgb(7, 170, 121);
+}
+
 @media (min-width: 600px) and (max-width: 1023px) {
   /* CSS-стили Tablet */
   .footer {
-    min-width: fit-content;
+    grid-template-columns: 30% 70%;
   }
   .footer__logo {
-    max-width: 50%;
-    padding-top: 1rem;
-}
-  .footer__image_underline {
-    padding-right: 0.1rem;
+    padding-top: 1.5rem;
+    width: 45%;
+    margin-left: 0;
+  }
+  .footer__section {
+    width: 50vw;
+  }
+  .footer__section::after {
+    width: 3.5vw;
+    margin-left: 3vw;
+  }
+  .footer__section {
+    font-size: $font-size-h3;
   }
 }
 
 @media screen and (max-width: 599px) {
   /* CSS-стили Smartphone*/
   .footer {
-    max-height: 5rem;
+    min-height: 6rem;
+    gap: 8vw;
   }
   .footer__logo {
-    max-width: 70%;
+    max-width: 100%;
     padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    align-self: center;
+    width: 38%;
   }
-  .footer__item {
-    flex-direction: column-reverse;
+  .footer__menu {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
   .footer__section {
-    font-size: 0.4rem;
-    max-width: 4rem;
-    padding-bottom: 2rem;
-    padding-left: 1.6rem;
+    width: 40vw;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    font-size: $font-size-text-p-phone;
   }
-  .footer__image_underline {
-   align-self: flex-end;
-   padding-bottom: 0.5rem;
-  height: 0.9rem;
+  .footer__section::after {
+    width: 4vw;
+    margin-left: 6vw;
   }
-  }
+}

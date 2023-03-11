@@ -1,20 +1,20 @@
 /* CSS-стили Desktop */
 .main-services {
-  width: 90%;
+  width: 85%;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 15%;
   padding-bottom: 2%;
+  margin-top: 5%;
 }
-
-.row {
+​ .row {
   margin-left: 5%;
   margin-right: 5%;
 }
-
-.main-services__title {
+​ .main-services__title {
   color: $text-color2;
   margin: 0;
   padding: 0;
+  font-size: $font-size-h2;
   @include heading-h2;
 }
 
@@ -23,11 +23,8 @@
   height: 0.1vw;
 }
 
-@media screen and (max-width: 599px) {
-  /* CSS-стили Smartphone*/
-
-  .main-services__title {
-    @include heading-h1;
-    margin-top: 2%;
+@media only screen and (max-width: 599px) {
+  .main-services {
+    display: none;
   }
 }
