@@ -1,10 +1,12 @@
 .mission-wrapper {
+  // border: 1px dashed red;
   background-color: #fbfbfb;
   display: grid;
   justify-items: center;
   width: 100%;
 }
 .mission-block {
+  // border: 1px dashed red;
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -24,16 +26,16 @@
 .instruments {
   // border: 1px dashed red;
   background-color: #ffffff;
+  margin: 10%;
   min-width: 22vw;
   min-height: 20vw;
-  margin: 10%;
   padding: 5%;
 }
 .mymission__headline-block,
 .unic__headline-block,
 .instruments__headline-block {
   // border: 1px dashed rgb(8, 116, 49);
-  align-items: end;
+  align-items: center;
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
@@ -42,35 +44,52 @@
   color: $text-color2;
   text-transform: uppercase;
   font-size: $font-size-h3;
-  width: 10vw;
   @include heading-h3;
 }
-.icon-mission {
-  width: 100%;
+.mymission__icon,
+.unic__icon,
+.instruments__icon {
+  // border: 1px dashed red;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #dbdbdb;
+  justify-self: end;
+  padding: 15px;
+  width: 4rem;
+  height: 4rem;
 }
-.icon-mission img {
+.mymission__icon img,
+.unic__icon img,
+.instruments__icon img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
+
 // медиазапросы
 @media (min-width: 760px) and (max-width: 1023px) {
   .mymission,
   .unic,
   .instruments {
     margin: 5%;
-    padding: 2%;
+    padding: 10px;
     min-width: 28vw;
     min-height: 28vw;
   }
   .mission-title {
-    width: 18vw;
+    margin-top: 15px;
     font-size: $font-size-h3-tablet;
   }
   .mymission__text,
   .unic__text,
   .instruments__text {
     line-height: 1.1em;
+  }
+  .mymission__icon,
+  .unic__icon,
+  .instruments__icon {
+    padding: 10px;
+    width: 3rem;
+    height: 3rem;
+    justify-self: end;
   }
 }
 @media screen and (max-width: 759px) {
@@ -94,13 +113,17 @@
   .unic__headline-block,
   .instruments__headline-block {
     align-items: center;
-    // border: 1px dashed rgb(8, 116, 49);
     grid-template-columns: 2fr 0.5fr;
   }
   .mission-title {
     font-weight: 100;
     font-size: $font-size-h3-phone;
     width: 35vw;
+  }
+  .mymission__icon,
+  .unic__icon,
+  .instruments__icon {
+    margin: 10px 0px;
   }
 }
 @media screen and (max-width: 600px) {
