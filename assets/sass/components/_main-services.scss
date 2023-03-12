@@ -17,38 +17,14 @@
   font-size: $font-size-h2;
   @include heading-h2;
 }
-.main-services__title::after {
-  content: " ";
-  display: block;
-  width: 35px;
-  height: 2px;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  background-color: $color3;
+
+.main-services__title__decoration {
+  width: 2.3vw;
+  height: 0.1vw;
 }
 
-@media (min-width: 1024px) {
-  .main-services__title {
-    font-size: $font-size-h2;
-    @include heading-h2;
-  }
-}
-@media (min-width: 600px) and (max-width: 1023px) {
+@media only screen and (max-width: 599px) {
   .main-services {
-    width: 95%;
-    margin-left: 7%;
-  }
-  .main-services__title {
-    font-size: $font-size-h2-tablet;
-  }
-}
-@media screen and (max-width: 599px) {
-  .main-services {
-    margin-left: 3%;
-    width: 100%;
-  }
-  .main-services__title {
-    margin-top: 2%;
-    font-size: $font-size-h2-phone;
+    display: none;
   }
 }
