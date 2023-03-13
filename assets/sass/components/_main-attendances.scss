@@ -1,0 +1,40 @@
+.main-attendances {
+  margin-top: 15%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.main-attendances__title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: $font-size-h2-phone;
+}
+.main-attendances__line {
+  margin-left: 3%;
+}
+.list-text {
+  background-color: $color2;
+  font-family: "Oswald", sans-serif;
+  font-size: $font-size-h3-phone;
+}
+.main-attendances__list {
+  font-size: $font-size-text-p-phone;
+}
+
+@media only screen and (max-width: 599px) {
+  .p {
+    font-size: $font-size-text-p-phone;
+  }
+  .h2 {
+    font-size: $font-size-h2-phone;
+  }
+  .h3 {
+    font-size: $font-size-h3-phone;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .main-attendances {
+    display: none;
+  }
+}

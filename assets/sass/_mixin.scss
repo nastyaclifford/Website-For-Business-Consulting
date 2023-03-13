@@ -76,13 +76,3 @@ font-family: 'Oswald', sans-serif;*/
 @mixin shadow {
   filter: drop-shadow(0 0 0.75rem crimson);
 }
-
-/* Марина main начало*/
-@mixin card-body-l {
-  min-width: 95%;
-  min-height: 250px;
-  padding: 120px;
-  text-align: center;
-}
-
-/* Марина main конец*/
