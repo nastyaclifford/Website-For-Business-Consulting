@@ -32,5 +32,8 @@ https://www.figma.com/file/HjG1BAfAAaeDaaX3Kvpw2F/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82
 
 git clone https://github.com/Oksana2211/Project.git
 
+## Thanks to all contributors! 
+
+[![Contributors](https://contrib.rocks/image?repo=Oksana2211/Project)](https://github.com/Oksana2211/Project/graphs/contributors)
 
 
