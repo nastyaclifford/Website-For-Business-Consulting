@@ -6,7 +6,7 @@ https://www.figma.com/file/HjG1BAfAAaeDaaX3Kvpw2F/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82
 
 ## Prject goals
 
-- Developing a website for an individual entrepreneur, providing consulting services (business plans, financial models, business processes);
+- Development of a website for an individual entrepreneur, providing consulting services (business plans, financial models, business processes);
 - Audience: large companies (not individuals, not sole entrepreneurs);
 - The approximate structure of the website should contain the following sections:
 
