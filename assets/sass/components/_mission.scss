@@ -1,5 +1,4 @@
 .mission-wrapper {
-  // border: 1px dashed red;
   background-color: #fbfbfb;
   display: grid;
   justify-items: center;
@@ -7,7 +6,6 @@
   margin-top: 5%;
 }
 .mission-block {
-  // border: 1px dashed rgb(14, 8, 110);
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -16,7 +14,6 @@
   min-height: 15vw;
   padding-left: 5%;
   padding-right: 5%;
-  // margin-top: 2%;
 }
 .mymission__text,
 .unic__text,
@@ -28,7 +25,6 @@
 .mymission,
 .unic,
 .instruments {
-  // border: 1px dashed red;
   background-color: #ffffff;
   margin: 20px;
   min-width: 22vw;
@@ -38,7 +34,6 @@
 .mymission__headline-block,
 .unic__headline-block,
 .instruments__headline-block {
-  // border: 1px dashed rgb(8, 116, 49);
   align-items: start;
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -52,7 +47,6 @@
   @include heading-h3;
 }
 .mymission__icon, .unic__icon, .instruments__icon {
-  // border: 1px dashed red;
   border-radius: 50%;
   box-shadow: 0px 0px 20px #dbdbdb;
   justify-self: end;
@@ -66,7 +60,6 @@
 }
 
 
-// медиазапросы
 @media (min-width: 760px) and (max-width: 1023px) {
   .mymission,
   .unic,
