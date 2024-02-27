@@ -1,7 +1,8 @@
 # Website for Business Consulting services 
-/ https://nastyaclifford.github.io/Website-For-Business-Consulting/ /
 
 The goal of this project was to design and develop a single-page website for a business advisor specializing in consultancy services for large companies and providing guidance on business plans, financial models, and business processes. The website has a smooth, user-friendly design and clear layout and is accessible on both mobile and desktop devices.
+
+/ https://nastyaclifford.github.io/Website-For-Business-Consulting/ /
 
 <img align="center" width=800 src="Website_pics/Webisite_pic.png" />
 
